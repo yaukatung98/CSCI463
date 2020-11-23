@@ -1,0 +1,52 @@
+Hypertext Transfer Protocol (HTTP)
+
+    [0] Port 80
+
+Secure Hypertext Transfer Protocool (HTTPS)
+
+    [0] Port 443
+
+Remote SHeoll
+
+    [0] Telnet (23, insecure)
+
+    [1] Secure Shell (22, secure)
+
+File Transfer
+
+    [0] File Transfer Protocol (20-21, insecure)
+
+    [1] FTP/SSH (22)
+
+    [2] FTPS (20-21, with TLS)
+
+    [3] SSH FIle Transfer Protocol (22)
+
+    [4] Secure Copy (22, can only copy) 
+
+    [5] Trivial File Transfer Protocol (UDP 69, can only copy)
+
+    [6] NETbios (137, 138, 139, Microsoft)
+
+    [7] SMB (445)
+
+Mail
+
+    [0] SMTP (25)
+
+    [1] IMAP (143)
+
+    [2] POP (110)
+
+Et Cetera
+
+    [0] DNS (Allow you to use www.whatever.com, 53)
+
+    [1] DHCP (Dynamic Host Configuration Protocol) (Allow the computers to automatically configure the IP address, 67/68)
+
+    [2] SNMP (Simple Network Management Protocol for having the routers talk to us) (UDP 161/162)
+
+    [3] LDAP (Light Weight Directory Access Protocol) (389)
+
+    [4] RDP (Remote Desktop Protocol) (3389)
+

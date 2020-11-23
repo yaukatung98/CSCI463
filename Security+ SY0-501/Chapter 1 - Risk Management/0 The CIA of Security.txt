@@ -1,0 +1,13 @@
+The goals of security
+
+CIA Triad
+
+[0] Confidentiality: The goal of keeping data secret from anyone who doesn't have the need to access the data.
+
+[1] Integrity: Ensures the data save in an altered state when stored transmitted and received. For example: No unauthorized modification, alteration, creation, or deletion of the data.
+
+[2] Availability: We have to ensure that systems and data are available to authorize users when needed.
+
+[3] Auditing & Accountability: Keep track of things that go on. For example: who's been logging in, what are they logging, who's accessing this data, when did somebody come in the gate, who's made changes to something.
+
+[4] Non-Repudiation: Users can't deny that they have performed a particular action.

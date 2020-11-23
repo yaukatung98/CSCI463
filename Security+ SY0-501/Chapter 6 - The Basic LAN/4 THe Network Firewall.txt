@@ -1,0 +1,13 @@
+stateful vs stateless firewall
+
+    [0] Stateless firewall will go ahead and filter it block stuff no matter what the situation. For example, set up a firewall to block port 197 (Solid)
+
+        [0] Access Control List
+    
+    [1] Stateful Firewall is much more complicated tool than a stateless firewall. For example, disable port scanning (Dynamic)
+
+A stateful firewall blockig is based on behavior more than rules
+
+A stateless firewall blocking is based on a acces control list, and defined rules
+
+Stateless firewalls configuration can block and unblock by defined IP addresses, port access, URL access.

@@ -1,0 +1,39 @@
+Third-party intercepting between a two-party conversation
+
+Uses the information to the third party's advantage
+
+Wireless MITM:
+
+    Wireless 
+
+    Bluetooth
+
+    NFC
+
+Wired MITM:
+
+    Spoofing
+
+    Ettercap (Gather data (user names, passwords, etc.))
+
+    ARP Poisining (Noisy)
+
+    DNS Poisining (URL redirect)
+
+    site hijacking 
+
+    Domain hijacking
+
+    Replay attack (Grab data and replay later)
+
+    Downgrade attack (downgrade from TLS to SSL)
+
+    session hijacking (inject information between two systems)
+
+    Firesheep
+
+To start a MITM attack one must "get in the middle"
+
+Once an attack is successful you must use all informaiton obtained
+
+the type of network can make the MITM attack  easier or more difficult

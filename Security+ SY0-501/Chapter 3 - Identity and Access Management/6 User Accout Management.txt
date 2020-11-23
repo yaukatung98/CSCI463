@@ -1,0 +1,19 @@
+Track log on/ log off activity
+
+Track file access
+
+shared accounts are bad
+
+Use different user names and passwords for multiple accounts
+
+Monitor which users belong to which groups
+
+Use least privilege:
+
+    [0] Enough necessary to accomplish task
+
+Monitor and log activity of users with multiple accts
+
+Default/generic accounts
+
+Use dedicated service accounts

@@ -1,0 +1,13 @@
+LAN uses WIndows Active Directory
+
+Federated Systems
+
+Security Assertion Markup Language
+
+    [0] Allows single person at single place log into a whoel bunch of different devices.
+
+For Local Area Networks, use Windows Active directory to Single Sign-once
+
+SAML is used ti manage multiple apps using a single account
+
+SSOcircle provides a lot of Service Provider Samples

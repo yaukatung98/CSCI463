@@ -1,0 +1,39 @@
+PKI:
+
+    [0] The infrastructure that we use for just about every real world application that uses public keys (Digital Certificates)
+
+Certificate Authority:
+
+    [0] An organization (Root Certificate)
+
+Root Certificate systems:
+
+    [0] Disignated intemediary certificate authorities
+
+PKCS:
+
+    [0] Invented by the RSA corporation
+
+    [1] A defacto standard for a lot of PKI systems
+
+    [2] If you want to do PKI in real world, you gotta follow PKCS
+
+X.509:
+
+    [0] If i'm far away and I want to query a database at another place far away, how do I go about it, how do we distribute, how do we store informaiton, how do we organize stuff in hierarchies.
+
+PKCS-7:
+
+    [0] A way to store Certificates as individual files
+
+PKCS-12:
+
+    [0] Stores the Certificates and the private keys as a package
+
+CRL (Certificate Revocation List):
+
+    [0] A path, a really really important part of out whole PKI system
+
+OCSP (Online certificate status protocol):
+
+    [0] Real time in terms of being ale to check whether a certificate is good or not

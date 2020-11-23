@@ -1,0 +1,9 @@
+Diversity vs Redundancy
+
+[0 ]Redundancy is repeating the same controls at various intervals. (WW1 Trenches System)
+
+[1] Diversity is using a variety of controls in a random pattern. (WW1 Setting up machineguns or other detections/weapons watching no man's land)
+
+[2] Defense in depth uses administrative physical and technical controls
+
+[3] Vendor diversity is a method of defense in depth with technical controls

@@ -1,0 +1,51 @@
+Cloud-based Virtualization
+
+    [0] Microsoft Azure / Google Cloud
+
+Virtualization characteristic
+
+    [0] Security feature
+
+    [1] Patch management
+
+    [2] Centralized hardware maintenance
+
+    [3] Resilent and high availability
+
+    [4] Great testing and sandboxing environment
+
+Network separation
+
+Snapshots and backups
+
+Virtual Threats
+
+    [0] Malware, bad patch managemnt, etc.
+
+    [1] VM sprawl (setup VMs without authentication)
+
+    [2] Vm ecape (break the vm and infect the host machine)
+
+Virtualization Hardening
+
+    [0] Remove remnant data
+
+    [1] Make good policies
+
+    [2] Define user privileges
+
+    [3] Patch everthing
+
+    [4] Cloud Access Security Broker (SACB)
+
+        [0] Makes sure policies are controlled
+
+        [1] Watches malware
+        
+        [2] Connects your VM network to a third party cloud service
+
+Virtualization still requires patch, firmware and hardware maintenance
+
+Virtual machines are subject to malware and viruses like other machines
+
+Make god security policies

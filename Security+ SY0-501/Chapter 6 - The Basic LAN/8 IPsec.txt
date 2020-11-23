@@ -1,0 +1,71 @@
+IPsec
+
+    [0] A bunch of protocol that came up together to create a secure connection
+
+    [1] Authentication headers
+
+        [0] Provides integrity
+
+        [2] Genarates HMAC
+
+    [2] Encapsulating Security Payload (ESP)
+
+        [0] Encrypt the data with DES, 3DES, AES first, then add the AH. 
+
+Transport mode
+
+    [0] Doesn't work well in real world
+
+    [1] IP payload is encrypted
+
+    [2] IP header is not encrypted
+
+    [3] Original IP header is used for routing decisions
+
+    [4] provides protection for the payload from end to end
+
+Tunnel mode
+
+    [0] Encrypt the data package, then add a new IP in the front
+
+    [1] IP payload is encrypted
+
+    [2] IP header is encrypted
+    
+    [3] New IP packet encapsulates the encrypted one with a new header that is used for routing decisions
+
+    [4] Privides protection for the payload and the header from the beginning of the tunnel to the end of the tunnel (e.g site to site VPNs to connect sites.)
+
+IPsec protocol suite
+
+    [0] Uses negotiation protocol ISAKMP
+
+        [0] Initial Authentication
+
+            [0] Certificates
+
+            [1] Preshared keys
+
+            [2] Key exchange
+
+IPsec with L2TP
+
+    [0] Common
+
+    [1] Tunnel within the Tunnel
+
+Radius/TACACS+
+
+    [0] Use IPsec to secute the AAA connection
+
+IPsec with IPv6
+
+IPsec with non-secure protocols
+
+    [0] Using IPsec to Encrypt the telnet tunnel.
+
+IPsec works at the IP layer
+
+IPsec has a tunnel & transport mode
+
+Authentication headers (AH) provide integrity

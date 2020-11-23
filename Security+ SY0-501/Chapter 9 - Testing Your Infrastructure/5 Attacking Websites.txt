@@ -1,0 +1,38 @@
+Common log format (CLF)
+
+    [0] 127.0.0.1 -- (10/Oct/2017:10:05:24 -0600)"GET /CompTIA09_small.gif HTTP/1.0" 200 42213
+
+    [1] 127.0.0.1   ===> Host - the fully qualified domain name of the client, or its IP address
+
+    [2] -- ===> Ident - if the identifyCheck directive is enabled and the client machine runs ident, then this is the identify information reported by the client
+
+           ===> Authuser - if requested, URL required a successful basic HTTP authenticaiton then the username is the value of this token.
+
+    [3] (10/Oct/2017:10:05:24 -0600)    ===> Date - The date and time of the requested
+
+    [4] "GET /CompTIA09_small.git HTTP/1.0" ===> Request - The request line from the client enclsoed in double quotes ("_")
+
+    [5] 200 42213   ===> Status - The three-digit HTTP status code returned to the client
+                    ===> Bytes - The number of bytes in the object returned to the client, excluding all HTTP headers.
+
+
+cPanel
+
+Web Site Attack
+
+    [0] Web application attacks
+
+        [0] Cross-site scripting
+
+            [0] Client-side script injected into trusted web sides
+
+        [1] XML injections
+
+            [0] An attack technique used to manipulate or compromise the logic of an XML application or service
+
+
+Log files are you friend!
+
+Cross-site scripting (XSS) is a common type of injection attack that affects web sites and web applications
+
+XML injections are very small changes that have big consequences

@@ -1,0 +1,23 @@
+NAS (Network Attached Storage):
+
+    [0] Runs over a standard Network
+
+    [1] Shows up as normal shares on Network
+
+Storage Area Networks (SAN):
+
+    [0] SAN provides block-level storage
+
+    [1] Fiber Channel (FC)
+
+    [2] Host Bus Adapater (HBA) 
+
+ISCSI:
+
+    [0] Poor man version of SAN
+
+NAS is file level
+
+SAN is block level
+
+SANs will either use FIbre Channel or ISCSI

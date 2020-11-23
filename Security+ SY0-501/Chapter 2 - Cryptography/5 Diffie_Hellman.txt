@@ -1,0 +1,5 @@
+Diffie Hellman is an asymmetric algorithm often referred to as a key exchange agreement
+
+Diffie Hellman groups help by defining the size or type of key structure to use
+
+Diffie Hellman can have very large keys

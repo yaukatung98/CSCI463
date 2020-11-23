@@ -1,0 +1,29 @@
+LAN (Local Area Network)
+
+    [0] 1 Broadcast Domain
+
+WAN (Wide Area Network)
+
+    [0] At least two local area networks and at least one router
+
+Metropolitan Area Network (MAN)
+
+    [0] A wide area network that connects to other wide area networks
+
+Internet
+
+    [0] MAN connetcs to other MANs
+
+Intranet
+
+    [0] A private network which still runs on TCP/IP
+
+Extranet
+
+    [0] Give access to the intranet
+
+A LAN is a network that has logical and physical borders that a computer can broadcast 
+
+A WAN is multiple LANs or additional WANs with routing functionality for interconnectivity
+
+An Intranet is a private network that runs on TCP/IP

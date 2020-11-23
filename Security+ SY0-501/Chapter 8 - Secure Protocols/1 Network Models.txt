@@ -1,0 +1,26 @@
+OSI Seven-layer Model 
+
+    [0] 1 - Physical (What cable do i use)
+
+    [1] 2 - Data Link (Anything works with MAC, switches, network Cards)
+
+    [2] 3 - Network (logical Address (IP), routers)
+
+    [3] 4 - Transport (Assembly, disassembly package part)
+
+    [4] 5 - Session (The actual connection between two devices, how the connectivity really works)
+    
+    [5] 6 - Presentation (Convert data into a format so the computer can read, MS word)
+    
+    [6] 7 - Applicaiton (API)
+
+TCP Model
+
+    [0] 1 - Network Interface (Hardwares, like Physical + Data link fro the OSI)
+
+    [1] 2 - Internet (Anything do with the IP address)
+
+    [2] 3 - Transport (Assembly and disassembly, TCP/UDP from one device to the next)
+
+    [3] 4 - Applicaiton (Anthing that has to do with the applicaitons will work here.)
+

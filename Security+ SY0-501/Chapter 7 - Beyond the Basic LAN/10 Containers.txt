@@ -1,0 +1,7 @@
+A containner runs isolated instances of programs and services
+
+Containners are self-contained applications that can communicate with network resources that have been explicitly allowed
+
+containners can depend on each other, and can be configures to communicate with each other on a single host
+
+Containners run a single program and all its dependencies whtn the program exists.

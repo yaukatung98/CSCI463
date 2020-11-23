@@ -1,0 +1,37 @@
+Proxy:
+
+    [0] A box/piece of software running on a computer acts as an intermediary between two different devices having a saeesion
+
+Forward Proxy:
+
+    [0] The client is the proxy, so the client speaks to the proxy. Then the proxy does whatever the client wants and forwards it to the cloud.
+
+Web Proxy:
+
+    [0] Application-specific
+
+        [0] Web proxy
+
+        [1] FTP proxy
+
+        [2] VoIP proxy
+
+Reverse Proxy:
+
+    [0] The server is the proxy
+
+        [0] High security
+
+        [1] Handle DOS attacks
+
+        [2] Load balancing
+
+        [3] Caching
+
+        [4] Encryption Acceleration
+
+Forward Proxy hides the clients from the server, by forwarding the message to the server
+
+Forward Proxy can be configured fro caching, content filtering and firewall capability
+
+Reverse Proxy hides the server, and can provide load balancing, and caching for high activity pages.

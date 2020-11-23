@@ -1,0 +1,38 @@
+Session Key:
+
+    [0] In-band: Sending the key with encrypted data.
+
+    [1] Out-of-Band: Hand the data directly
+
+Symmetric encryption:
+
+    [0] The primary way that we encrypt data.
+
+Ephemeral Key:
+
+    [0] Temporary
+
+    [1] Provides perfect forward secrecy
+
+Asymmetric encryption
+
+    [0] Uses a key pair 
+
+        [0] Public key
+
+        [1] Private key
+
+    [1] Public key only used to encrypt
+
+    [2] Private key only used to decrypt
+
+    [3] Slow, but very useful in exchanging session keys
+
+Asymmetric encryption is used to send a secure session key
+
+Cryptosystem: 
+
+    [0] A very defined piece of cryptography that programmers can use to actually get stuff done.
+
+    [1] Cryptosystem define key properties, communication requirements for the key exchange and the actions taken through encryption and decryption process.
+

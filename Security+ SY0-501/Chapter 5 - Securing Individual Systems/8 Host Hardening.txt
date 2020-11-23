@@ -1,0 +1,45 @@
+Disabling Unnecessary Services
+
+Default Passwords
+
+Disabling Unnecessary Accounts
+
+Patch Management
+
+    [0] Monitor
+
+        [0] Might not get reminders
+
+    [1] Test
+
+        [0] Deploy in sandbox environment first
+
+    [2] Evaluate
+
+    [3] Deploy Patch
+
+        [0] Watch for scheduling issues
+
+    [4] Document
+
+Malware
+
+    [0] Training for users
+
+    [1] Procedures
+
+        [0] Best practices
+
+    [2] Monitoring
+
+    [3] Intrustion Detection System (IDS)
+
+    [4] Third-party anti-malware tools
+
+Firewall
+
+Host hardening strengthens the IT infrastructure
+
+Be sure all users, updates, firewalls, etc are being monitored
+
+IDS (Intrusion Detection System) can help detect threats to the hosts

@@ -1,0 +1,36 @@
+phishing attacks:
+
+    [0] spam and trying to steal info from the users.
+
+    [1] Unsolicited emails that typically requeist informaiton from you
+
+Spear phishing:
+
+    [0] Somehow they got the info of me and try to get the info of me.
+
+Spim:
+
+    [0] Receive spam via instant messaging
+
+    [1] social media spam
+
+Vishing
+
+    [0] unsolicited use of voice to try the voice of me.
+
+    [1] phishing calls
+
+    [2] VOice-based (voice + phishing) solicitations requesting informaiton aobut you that is confidential
+
+Clickjacking
+
+    [0] Making the users to do something really bad.
+
+Typo squatting & Domain Hijacking
+
+    [0] Take advantage of the fact the people mistype the URL
+
+Privilege Escalation
+
+    [0] To get enough privilege, power within the system to do whatever naughtiness it is that we want to do 
+

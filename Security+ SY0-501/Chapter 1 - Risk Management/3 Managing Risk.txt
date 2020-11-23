@@ -1,0 +1,49 @@
+Risk Assessment
+
+[0] Vulnerability Assessment
+
+[1] Threat Assessment
+
+
+
+Vulnerability Assessment
+
+[0] NIST SP 800: Tend to be broad Vulnerability. For example: Our network is susceptible to being sniffed by somebody, but sniffing can be much more detailed than that.
+
+[1] CVE: Goes into a lot more details in terms of Vulnerability.
+
+[2] Nessus Program: A program that you run within your local area network and it will go out and check everything out for you and generate a document which provides you a lot of detail in terms of the Vulnerability that it finds.
+
+[3] Pen Testing: An outside part of some form tries to do things to your network, they look for Vulnerability and they report it to you. It the best way to find out what the Vulnerability are there in the network.
+
+
+
+Threat Assessment: Define the threat that are applicable to your particular infrastructure.
+
+[0] Adversarial: A hacker or malware where somebody is intentionally doing naughtiness to your particular infrastructure
+
+[1] Accidental: Something weird into a form and it causes your database to corrupt or an administrator inadvertently reformates a hard drive with a lot of data on it.
+
+[2] Structural: The things that break so equipment failures the best place to look at.
+
+[3] Environmental: Natural disaster that could potentially cause problem.
+
+
+
+Risk Response
+
+[0] Mitigation: Means whatever we can do to reduce the likelihood or the impact of the particular risk may not be the most simple answer to your problem. For example: Put a web server into DMZ, so it's a little bit more protected.
+
+[1] Transference: Means that you offload some of the likelihood and risk and impact on a third party. For example: Instead of monitoring and controlling our own web server, I go ahead and use a cloud based web server service and then that way I don't have to deal with the power supplies going out and bad internet connections because those guys will take care of that for me.
+
+[2] Acceptance: Means when you reach a point where the likelihood and the impact of the risk is less than the cost of actually trying to mitigate that particular risk. So on certain situation, I'm just going to accept the risk.
+
+[3] Avoidance: Means that this particular combination of likelihood and impact is so high that I simply don't want to deal with it. For example: I'm trying to get all kinds of information for customers' birthday card, like SSN, home address. If somebody hacked me and got this information I would have the outrageous legal obligation. So I simply don't do it.
+
+
+
+Framework:
+
+[0] NIST Risk Management Framework Special Publication 800-37
+
+[1] ISACA Risk IT Framework

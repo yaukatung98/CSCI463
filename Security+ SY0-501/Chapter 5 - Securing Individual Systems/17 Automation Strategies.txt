@@ -1,0 +1,17 @@
+Automation:
+
+    [0] Gives us the ability to do something at a very specific time. (Repetitive)
+
+    [1] Does something the exact same way every time (Consistent)
+
+Template restoration
+
+Continuous Monitroing
+
+Monitoring application whitelists
+
+Automation is repetitive and Consistent
+
+Automation is often used with various scans and updates based condigurable trigger
+
+PowerShell is a built-in Windows tool to write custom-built scripts to automate task

@@ -1,0 +1,51 @@
+Simple Network Management Protocol (SNMP):
+
+    [0] Managed Devices:
+
+        [0] UDP 161 Unencrypted 
+
+            TLS 10161 Encrypted
+
+        [1] RUn an agent that talks with a Network Management Station (NMS)
+
+    [1] SNMP Manager:
+
+        [0] Network Management Station (NMS)
+
+        [1] UDP 162 Unencrypted (Listening)
+
+            TLS 10162 Encrypted (Listening)
+
+    [2] Management Infomation Base:
+
+        [0] Different Devices have differnet MIB
+
+        [1] Comes in factory
+
+        [3] Download query set at SNMP Manager
+
+    [3] Get (Command)
+
+        [0] NMS sending to managed device, then send back a Get response to NMS (How many pages have been printed)
+
+    [4] Trap (Command)
+
+        [0] Something that set up on the devices itself, sends the info when it hit particualr value to the NMS itself. (When low on ink)
+
+    [5] Walk (Command)
+
+        [0] SNMPWalk, a big batch of Get
+
+    [6] Versions
+
+        [0] SNMP Version 1 does not support encryption
+
+        [1] SNMP Version 2 added soem basic encryption
+
+        [2] SNMP Version 3 added TLS encryption
+
+    [7] Community
+
+        [0] An SNMP community is an organization of managed devices
+
+    [8] Cacti is an open-source NMS for graphing SNMP data

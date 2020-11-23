@@ -1,0 +1,14 @@
+ping
+
+    [0] -4 uses ipv4
+
+
+Netstat -n 
+
+Ping is a DNS tool, it resolves web addresses to an IP addresses
+
+Netstat can detect what hosts are connected to you
+
+Netstat -a can detect all ports that are open to see what port are listening
+
+Tracert can help see what routers are being hit both internal and external

@@ -1,0 +1,13 @@
+WEP is the oldest 802.11 security standard
+
+WEP Initialization vector is vulnerable to cracking
+
+IV attack
+
+Aircrack can be used to grab WEP keys 
+
+Wired Equivalent Privacy (WEP) is the oldest security standard in 802.11
+
+WEP is easily crakced
+
+Despite its shortcomings, there are still wireless networks that use WEP

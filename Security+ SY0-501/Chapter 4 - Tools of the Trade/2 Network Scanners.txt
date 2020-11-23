@@ -1,0 +1,5 @@
+Nmap is useful for hardware inventory and reconnaissance of your system
+
+Network Scans can be done to detect open ports, protocols, hardware and rogue systems
+
+Scans can be a resource intensive so plan accordingly to maintain system availability

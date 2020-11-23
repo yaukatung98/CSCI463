@@ -1,0 +1,33 @@
+Scalability:
+
+    [0] Add more servers to take care the demands
+
+Elasticity:
+
+    [0] add the servers for a period of time
+
+Redundancy:
+
+    [0] Spread out the servers all around the nation
+
+Non-presistence:
+
+    [0] VM snap-shot
+
+    [1] Live CD
+
+Known state
+
+    [0] Windows uninstall updates
+
+Rollback
+
+    [0] Rollback Driver
+
+Elasticity is the ability to expand and contract your network system depending on demands
+
+Redundancy is a form of distributive allocation
+
+Non-presistence is data that is collected but will not be saved on restart
+
+A snapshot reverts to known state. rolls back to known configuration, and can store non-persistant data.

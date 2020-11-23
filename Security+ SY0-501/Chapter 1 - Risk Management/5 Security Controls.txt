@@ -1,0 +1,45 @@
+Security Control: an action, mechanism that we apply to our I.T. Infrastructure.
+
+[0] Protect our Infrastructure from security problems
+
+[1] Remediate problems if we've already had a problem with our security.
+
+
+
+Different Categories:
+
+[0] Administrative Control (Management Control): Control actions people make towards I.T. Security.
+
+        [0] Laws
+        [1] Policies
+        [2] Guidelines
+        [3] Best Practices
+
+[1] Technical Control: Control actions I.T. systems make towards I.T. security
+
+        [0] Computer Stuff
+        [1] Firewalls
+        [2] Password Links
+        [3] Authentication
+        [4] Encryption
+
+[2] Physical Control: Control actions in the real life
+
+        [0] Gates
+        [1] Guards
+        [2] Keys
+        [3] Man Traps
+
+
+
+Security Control Functions
+
+[0] Deterrent: Deters the actor from attempting the threat (Warning Sign)
+
+[1] Preventative: Deters the actor from performing the threat (Employee Training) (Firewall) (Fence)
+
+[2] Detective: Recognized an actor's threat (Background Check) (Closed circuit television)
+
+[3] Corrective: Mitigates the impact of a manifested threat (Backup)
+
+[4] Compensating: Provides alternative fixes to any of the above functions

@@ -1,0 +1,80 @@
+disaster recovery
+
+Business continuty
+
+Evacuation Plan
+
+    [0] Backup site
+
+        [0] Cold site
+
+            [0] It takes weeks to bring online
+
+            [1] Basic office space: buildings , chairs, AC
+
+            [2] No operational equipment
+
+            [3] Cheapest recovery site
+
+        [1] Warm site
+
+            [0] It takes days to bring online 
+
+            [1] Operational equipment but little or no data
+
+        [3] Hot site
+
+            [0] It takes hours to bring online
+
+            [1] Real-time synchronization
+
+            [2] Almost all ready to go - often just a quick update
+
+            [3] Very expensive
+
+Distance & location
+
+Internet Requirements
+
+Housing & entertainment
+
+Legal issues
+
+Order of Restoration
+
+    [0] Power
+
+    [1] Wired LAN
+
+    [2] ISP link
+
+    [3] Actice directory/DNS/DHCP servers
+
+    [4] Accounting servers
+
+    [5] Sales and accounting Workstations
+
+    [6] Video production servers
+
+    [7] Video production Workstations
+
+    [8] Wireless
+
+    [9] Peripherals (printers, cameras, scnners, faxes)
+
+Annual exercises
+
+Failover
+
+Alternative processing sites
+
+Alternative business practices
+
+After action reports
+
+Contingency planning attempts to mitagate adverse incidents to preserve business continuity
+
+Understand the pros and cons of the offsite options available: cold site, warm site, and hot site
+
+Thorough planing and practice is what makes recovery plans successful when disasters occur
+

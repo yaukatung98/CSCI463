@@ -1,0 +1,15 @@
+Full Disk Encryption (FDE)
+
+self-encrypting drive
+
+Hardware root of trust
+
+Secure Supply Chain
+
+hardware security module (store keys, signing)
+
+BitLocker is a built-in Windows Utility Drive Encryption Tool must have a recovery key to access the data
+
+WIndows TPM chip is used by BitLocker and secure boot and is activated in the BIOS
+
+Turn off legacy non-active ports to avoid vulnerable entry point.

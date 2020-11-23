@@ -1,0 +1,61 @@
+RAID (Redundant Array of Independent Disks):
+
+    [0] Provide intergrity
+
+    [1] Improve access
+
+RAID 0:
+
+    [0] Minimun of 2 drives
+
+    [1] Stripping
+
+    [2] Speeds up performance, but has no data intergrity
+
+    [3] Spread file into different clusters, and store them in different hard drive, if one hard drive died, the file would be corrupted
+
+RAID 1:
+
+    [0] Mirroring
+
+    [1] Minimun of 2 drives
+
+    [2] Slow things down
+
+Parity:
+
+    [0] Save one chuck of parity data into different drives
+
+RAID 2:
+
+    [0] same like RAID 0, but put the whole chuck of data into the third drive. so if either 1 or 2 failed, the data will still be okay.
+
+RAID 5:
+
+    [0] Distributed across all the drives
+
+    [1] Was the most popular long time, cannot lost more than one drive.
+
+RAID 6:
+
+    [0] Minimum of 4 drives
+
+    [1] 2 parity + RAID 0
+
+Hybrid RAID:
+
+    [0] RAID 10 / RAID 1+0
+
+    [1] Minimum of 4 drives
+
+    [2] First strip it, then mirror it
+
+Propreitrty RAID:
+
+    [0] A place for managing RAID
+
+RAID arrays enable you to speed up data access, protest data, or both
+
+The most common RAID styles includes 0, 1, 5 & 10
+
+RAID 1 & RAID 0 requires at least 2 drives, RAID 5 requires 3 or more drives & RAID 10 requires 4 drives

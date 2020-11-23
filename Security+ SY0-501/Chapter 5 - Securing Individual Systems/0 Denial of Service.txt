@@ -1,0 +1,29 @@
+DOS attack types
+
+    [0] Volume attack (sending shit tons of packs)
+
+        [0] Ping flood
+
+        [1] UDP flood
+
+    [1] Protocol attack (Underlying protocol, sending bunch of unaccepted to the protocol that causes the server to do weird things and keep it from answering quickly)
+
+        [0] SYN flood \ TCP SYN flood 
+
+    [2] Application attack (Works within the application conversation itself doing naughty things that keeps the applicaiton that server is running from being able to respond in a timely fashion)
+
+        [0] Slow Loris attack
+
+    [3] Amplification attack
+
+        [0] Smurf attack
+
+    [4] Distributed Denial of Service attack
+
+        [0] Botnet
+
+    [5] Denial of Service Attacks prevent others from accessing a system
+
+    [6] Distributed Denial of service uses multiple system to attack a single host
+
+    [7] Denial of Service attacks can broadly be broken down into volumetric, protocol and applicaiton attacks.

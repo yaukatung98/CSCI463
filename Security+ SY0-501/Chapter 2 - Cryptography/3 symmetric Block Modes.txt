@@ -1,0 +1,45 @@
+Eletronic Code Book
+
+    [0] Not so good, still can see the patterns 
+
+    [1] Nobody uses this anymore
+
+Block Modes
+
+    [0] Cipher Block Chaining (CBC)
+
+         [0] Initialization Vector
+
+         [1] XOR against the Initialization Vector
+
+         [2] Then use the output as for the next Initialization Vector, so the Initialization Vector will be different everytime it XORs
+
+         [3] Last, encrypt the output with the key
+
+    [1] Cipher Feedback (CFB)
+
+        [0] Encrypt the Initialization Vector first
+
+        [1] then XOR the data against the encrypted Initialization Vector
+
+        [2] The output will be the next Initialization Vector for the next chunk of data
+
+    [2] Output Feedback
+
+        [0] Same as Cipher Feedback, except using the same Initialization Vector (Step 2)
+
+    [3] Counter (CTR)
+
+        [0] Nonce value + Counter (it increases as the rounds go up)
+
+        [1] Concatenate the nonce and counter into the encryption box
+
+        [2] Use the encrypted nonce + counter to XOR against the input data, then output the result
+
+
+
+ECB block modes will always output the same results with the same input
+
+A binary block is plain text converted into 16-bit, 64-bit, or 128-bit binary ciphertext
+
+CBC, CFC, OFB, CTR block modes use an Initialization Vector, which ensures the output blok is uniquely different

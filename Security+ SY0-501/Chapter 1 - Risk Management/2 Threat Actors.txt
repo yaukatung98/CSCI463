@@ -1,0 +1,44 @@
+
+[0] Internal/External: Somebody within the organization of somebody far off country.
+
+  [0.1] Sophisticated Level: How much evil a person who is not terribly sophisticated at computing and networking.
+
+  [0.2] Resources: In order to do a lot of evil it requires a lot of resources, lots of computers and people to do that.
+
+[1] Intent: Why are they actually doing this and more importantly what is their intention.
+
+[2] Open-Source Intelligence (OSINT): Social medias, public records.
+
+
+
+Different kinds of threat actor
+
+[0] Script Kiddies
+
+  [0.1] Trivial amount of attack knowledge
+  [0.2] Use scripts and pre-made tools.
+  [0.3] They don't have lot of sophistication.
+
+[1] Hacktivist
+
+  [1.1] Intent is motivation
+
+[2] Organized Crime
+
+  [2.1] Motivation is money
+
+[3] Nation states/advanced persistent threat(APT)
+
+  [3.1] Motivation is Intelligence
+
+
+
+Insiders
+
+[0] Not always an employee
+
+[1] Works within the infrastructure
+
+[2] Has access to information
+
+[3] Competitors

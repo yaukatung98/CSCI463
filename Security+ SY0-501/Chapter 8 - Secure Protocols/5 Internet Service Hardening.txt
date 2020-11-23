@@ -1,0 +1,39 @@
+Using secure protocols is preferrable when possible
+
+DNS
+
+    [0] DNS is a nonsecure protocols
+
+    [1] DNSSEC
+
+        [0] Public signing key
+
+        [1] DNSSEC is an authentication tool not encryption
+
+        [2] DNSSEC is popular for public DNS servers
+
+        [3] Google's DNS Server 8.8.8.8
+
+Email
+
+    [0] TLS connection between clients and servers
+
+    [1] SMTP - 25
+
+        SSL SMTP - 465/587
+
+    [2] IMAP - 143
+
+        SSL IMAP - 993
+
+    [3] POP - 110
+
+        SSL POP - 995
+
+Use secure protocols
+
+When you can go secure - do so! (Secure FTP, SSH, etc....)
+
+DNS is insecure, but use DNSSEC for more security
+
+Also sue secure email services (TLS encrypted IMAP, POP, etc.)

@@ -1,0 +1,81 @@
+incident occurs
+
+Legal hold
+
+chain of custody
+
+    [0] Gathering evidence
+
+    [1] data is high integrity
+
+Chain of custody process
+
+    [0] Define the evidence
+
+    [1] Document collection method
+
+    [2] Data/time collected
+
+    [3] Person(s) handling the evidence
+
+    [4] Function of person handling evidence
+
+    [5] All locaitons of the evidence
+
+Order of Volatility
+
+    [0] Memory
+
+        [0] Caches
+
+        [1] Routing table
+
+        [2] ARP table
+
+    [1] Data on the disc
+
+        [0] Optical, flash drives
+
+        [1] Cache files, temp files
+
+        [2] write blocker enabled tools
+
+    [2] Remotely logged data
+
+        [0] web site data
+
+        [1] Remote file server logs
+
+    [3] Backups
+
+        [0] Trends
+
+        [1] Low volatility time to gather data
+
+Forensic data Acquisition
+
+    [0] Capture the system image
+
+    [1] Network traffic and logs
+
+    [2] Capture video
+
+        [0] Security camaras
+
+        [1] Documentation
+
+        [2] Record time offset
+
+    [3] Take hashes
+
+    [4] Take screenshots
+    
+    [5] Interview witnesses
+
+    [6] Track man hours
+
+Forensics is the process of gathering data in such a way as to be presented in a court of law or some other formal inquiry
+
+The chain of custody maintains the integrity of the data/evidence gathered
+
+The order of volatility is a process that enumerates when, where and how to gather the data/evidence before the data changes or disappears

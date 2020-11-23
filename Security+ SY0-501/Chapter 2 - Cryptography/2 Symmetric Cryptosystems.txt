@@ -1,0 +1,75 @@
+Symmetric key algorithm:
+
+    [0] Same key for encrypting and decrypting
+
+
+
+Block:
+
+    [0] Takes off x amount of bytes at the beginning and encryptes it and send it off to the side
+
+
+
+Data Encryption Standard (DES)
+
+    [0] First open standard used heavily by the US government
+
+    [1] Short Key
+
+    [2] Alternatives
+
+        [0] Blowfish
+
+        [1] TripDes
+
+    [3] Block Cipher
+
+    [4] 64-bit Block Size
+
+    [5] 16 Rounds
+
+    [6] Key Size: 56 bit
+
+
+
+Cryptosystems:
+
+    [0] Key Size
+
+    [1] Number of Rounds
+
+    [2] Block Size
+
+
+
+AES:
+
+    [0] Block Cipher
+
+    [1] 128-bit Block Size
+
+    [2] 128, 192, or 256-bit
+
+    [3] Rounds: 10, 12 or 14
+
+
+
+Streaming Cipher:
+
+    [0] RC4
+
+        [0] Streamingn Cipher
+
+        [1] 1 bit at a time
+
+        [2] 1 Rounds
+
+        [3] Key size: 40 bit - 2048 bits
+
+
+
+Triple DES (3DES) is the DES key size tripled
+
+AES is a US government encryption standard supported by the NIST
+
+RC4 (Rivest Cipher 4) is a stream cipher

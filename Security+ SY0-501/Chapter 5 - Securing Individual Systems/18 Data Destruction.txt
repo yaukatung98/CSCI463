@@ -1,0 +1,37 @@
+Clearing
+
+    [0] Use some internal command within the mass storage device to make the data go away
+
+    [1] Erase command from the command prompt of a hard drive
+
+wiping 
+
+    [0] begin at the very beginning of a drive and begin to write either all zeros or all ones or random ones and zeros from the beginning of the drive to the end of the drive, therefore we are completely destroying the data
+
+Purge 
+
+    [0] to do something to the device externally to make the data go away
+
+    [1] Degauss is a machine with a really strong magnetic field and you take your mass storage device and you put it in the degauss or for a certain amount of time and when it comes out of the degauss. All of the data is destroyed.
+
+    [2] The device is basically not useful anymore
+
+Crypto Erase
+
+    [0] We broke the key and have no access to the drive, so crypto erase ~= Purge
+
+Destroy
+
+    [0] Burning
+
+    [1] Pulping
+
+    [2] Shredding
+
+    [3] Pulverising
+
+Clearing can be done with commands such as erase, format, and delete, these methods are not final
+
+Purging will process the device to remove data from the drive, the device might will no longer be usable
+
+Destroiyng will ruin the data and physical media, this includes paper, tape, electronic data, etc.

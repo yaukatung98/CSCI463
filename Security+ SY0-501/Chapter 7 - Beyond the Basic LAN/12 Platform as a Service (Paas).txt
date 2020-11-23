@@ -1,0 +1,5 @@
+PaaS enables you to access a software development platform without the need to host it yourself
+
+heroku is a great example of PaaS.
+
+A PaaS lets you very quickly get your software running live on the internet

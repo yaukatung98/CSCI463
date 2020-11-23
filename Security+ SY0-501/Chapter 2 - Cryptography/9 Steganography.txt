@@ -1,0 +1,13 @@
+Steganography:
+
+    [0] Take data, usually text, and then we hide it within graphic images
+
+    [1] Image Steganography
+
+        [0] A software to do Steganography
+
+    [2] Steganography hides data within data
+
+    [3] Commonly used with graphic images
+
+    [4] Hidden data may or may not be encrypted

@@ -1,0 +1,55 @@
+Deterrent Physical Control
+
+    [0] Outside Lighting
+
+    [1] Signage
+
+    [2] Security Guards
+
+Preventative Physical Controls
+
+    [0] Fences
+
+    [1] Barricades
+
+    [2] K ratings
+
+    [3] K4 (30 mph) K8 (40mph) k12 (50mph)
+
+    [4] Mantrap (Have to trap in a house for a while before they exit)
+
+    [5] Cabling Systems
+
+        [0] Air gaps
+
+        [1] VPN or VLAN
+
+    [6] Locks
+
+    [7] faraday cage
+
+    [8] Key management
+
+    [9] Cable Locks
+    
+    [10] Screen filters
+
+Detective Physical Control
+
+    [0] alarms
+
+    [1] cameras
+
+    [2] motion detectors
+
+    [3] infrared detectors
+
+    [4] Log filters
+
+Compensating & Corrective Control
+
+There are three types of physical controls: Deterrent, preventative and Detective
+
+Learn to identify what falls under all of these types, and how to improve these physical controls
+
+Compensating are temporary fixes when these controls are weakened

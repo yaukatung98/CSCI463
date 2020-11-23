@@ -1,0 +1,140 @@
+Security Training
+
+    [0] Onboarding
+
+        [1] An action that takes a person who is outside of your infrastructure and brings them in. (New hires, contractors, temporary workers)
+
+        [2] A good background check
+
+        [3] Non-disclosure agreement (NDA) (Make sure don't share the company's info)
+
+        [4] Standard Operating Procedures
+
+        [5] Specialized Issues
+
+        [6] Rules of Behavior
+
+        [7] General Security Policies
+
+    
+
+    [1] Offboarding
+
+        [1] Disable Accounts
+
+            [1] Never delete an account!
+
+        [2] Return Credentials
+
+        [3] Exit Interview
+
+        [4] Knowledge Transfer
+
+
+
+    [2] Personally Identifiable Information
+
+        [1] Full name
+
+        [2] Home address
+
+        [3] Email address
+
+        [4] National Identification Number
+
+        [5] Passport Number
+
+        [6] Vehicle registration place Number
+
+        [7] Driver's license number
+
+        [8] Face, fingerprints, or handwriting
+
+        [9] Credit card numbers
+
+        [10] Digital Identity
+
+        [11] Date of birth
+
+
+
+    [3] Personnel Management Controls
+
+        [1] Mandatory Vacations
+
+            [1] Required 
+
+            [2] Two Weeks
+
+            [3] Dependency Issues
+
+            [4] Makes fraud harder
+
+            [5] Prevents collusion
+
+        [2] Job Rotation
+
+            [1] Redendancy and backup
+
+            [2] Makes fraud more difficult
+
+            [3] Allows for cross-training
+
+        [3] Separation of duties
+
+            [1] Requires dual execution
+
+    
+
+    [4] Role-based Data Controls
+
+        [1] System Owner
+
+            [1] Management Level
+
+            [2] Maintains security of the System
+
+            [3] Defines a system administrator
+
+            [4] Works with a ll data owners to ensure data security
+
+        [2] System administrator
+
+            [1] Dat-to-dat administration of a system
+
+            [2] Implement security controls
+
+        [3] Data owner
+
+            [1] Defines the sensitivity of the data
+
+            [2] Defines the protection of the data
+
+            [3] Works with the system owner to protect data
+
+            [4] Defines access to the data
+
+        [4] User
+
+            [1] Accesses and uses the assigned data responsibly
+
+            [2] Monitors and reports security breaches
+
+        [5] Privileged User
+
+            [1] Has special access to data beyond the typical User
+
+            [2] Works closely with system administrators to ensure data security
+
+        [6] Executive User
+
+            [1] Read only access but can look at all busness data
+
+        
+
+Onboarding is the starting point for security training, but good security training is an ongoing process.
+
+Offboarding is an important time to talk to the exiting employee, find out where their data is stored, and other pertinent Information.
+
+Personel controls and role-based data controls help secure funcitons and the data within an organization.
+        

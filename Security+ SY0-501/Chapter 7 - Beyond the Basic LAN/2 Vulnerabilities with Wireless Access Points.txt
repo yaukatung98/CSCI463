@@ -1,0 +1,15 @@
+Rogue Access points
+
+    [0] Unauthorized access point
+
+Evil twin
+
+    [0] Generate the same SSID AP and scam people
+
+Deauthenticaiton attack
+
+Rogue access points can be accidental, but evil twins are intentional
+
+802.11 jammers are illegal, but can knock anyone off a network
+
+Rogue access points and evil twins can cause a lot of headaches

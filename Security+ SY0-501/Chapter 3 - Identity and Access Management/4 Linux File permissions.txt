@@ -1,0 +1,28 @@
+rwx  | rwx |rwx
+owner|group|everyone
+
+r=read (Open a file, view contents)
+w=write (Edit a file, add or delete files)
+x=execute (Run a file, CD to a different directory)
+
+chmod (Short for change mode):
+
+    [0] to change file and folder permissions
+
+    [1] o=other
+
+    [2] g=group
+
+    [3] a=all (everybody)
+
+chown:
+
+    [0] Change the owner of specific folder
+
+passwd:
+
+    [0] quick way to change account password
+
+
+
+    

@@ -1,0 +1,52 @@
+Obduscation: 
+
+    [0] To take something that looks like it makes sense and to hide it so that it does not make sense to the casual outside observer
+
+    [1] Diffusion: Only allows us to make things less visible, less ovbious. Like to blur the picture a bit.
+
+    [2] Confusion: To make it confuse. Like to stir up the picture.
+
+    [3] ROT2: Rotate twice
+
+    [4] Caesar Cipher: The shift cipher. For example, we use ROT2, A becomes C, so ABC would be CDE.
+
+    [5] Cryptanalysis: breaking these encrypted codes.
+
+    [6] Vigenere Cipher: An intersection encryption, Use X and Y axies key to encrypte the code.
+
+        [0] It's great for encrypting alphabets, but not for pictures, sql databases, credit card informaiton.
+
+    [7] Classic cryptography compoents
+
+        [0] Algorithm
+
+        [1] Key for encryption
+
+    [8] Exclusive OR (XOR)
+
+    [9] Keyckhoffs's principle
+
+        [0] As long as you don't know waht the key is to an encryption, you can actually understand the algorithm completely.
+
+    [10] Data at rest
+
+        [0] Something stored on a hard drive or on optical media or on a thumb drive or whatever it might be.
+
+    [11] Data at transit
+
+        [0] A message or VOIP call
+
+    [12] Data in process
+
+        [0] The encryption/decryption within the RAM or CPU
+
+
+Cryptography is the practice of disguising informaiton in a way that looks random
+
+The caesar cipher is one of the earliest known and simplest ciphers
+
+The vigenere cipher employs the caesar cihper as one element of the encryption process.
+
+    
+
+

@@ -1,0 +1,5 @@
+Honey pots emulate web server, and are used to deter threat actors and log information
+
+Honey pots capture port information and the origin IP addresses
+
+Honeynet is a when you emulate a while network

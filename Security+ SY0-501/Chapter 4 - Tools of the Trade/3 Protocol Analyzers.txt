@@ -1,0 +1,23 @@
+Wireshark
+
+    [0] Sniffer:
+
+        [0] pcap
+
+            [0] the tool that grabing the data in and out through the interface, all the ethernet info, all the ip, mac info, save the file or live feed
+
+    [1] Analyzer:
+
+        [0] Read the pcap data.
+
+    [2] ARP
+
+        [0] Resolve IP to MAC address
+
+    [3] It misses some of the pakage.
+
+Protocol Analyzers have two funcitons: sniffing and analyzing the data
+
+Wireshark allows us to filter the data by services and protocols
+
+Using a network analyzer we can look closely at an activeity taking place with that session

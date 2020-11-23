@@ -1,0 +1,23 @@
+Data Integrity
+
+Speed/quick access
+
+High Availability
+
+    [0] RAID 
+
+        [0] Provides good Integrity
+
+        [1] Provides good Speed
+
+        [2] Is very affordable
+
+    [1] Clustering
+
+        [0] Load balancing..
+
+Clustering is a good method to protect not only data but system resoruces, but expensive.
+
+Load balancing distributes work loads across multiple machines.
+
+Virtualizing Servers is a cost effective way to secure data.

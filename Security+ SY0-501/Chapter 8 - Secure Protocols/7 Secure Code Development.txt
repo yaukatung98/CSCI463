@@ -1,0 +1,102 @@
+waterfall
+
+    [0] Requirements
+
+    [1] Design
+
+    [2] Implementation
+
+    [3] Verification
+
+    [4] Maintenance
+
+Agile
+
+    [0] Working application is more comperhensive than documentation
+
+Sprint
+
+    [0] Achive what we can achive
+
+Scrum
+
+    [0] Quick meeting (What is my goal, what have i achived within the time period)
+
+DevOps
+
+    [0] Developments and operations to work together
+
+    [1] DevOps (It's cycle)
+
+        [0] Plan
+
+            [0] What we develop the Requirements
+
+        [1] Create
+
+            [0] Write the code
+
+        [2] Verify
+
+            [0] Test
+
+        [3] Package
+
+            [0] Need manager approval
+
+        [4] Release
+
+            [0] How do to deploy it
+
+        [5] Configure
+
+            [0] What forms of configurations do we deal within
+
+        [6] Monitor
+
+            [0] Are we having problems?
+
+    [2] Secure DevOps
+
+        [0] Security automation tools
+
+            [0] Fuzzer tools, static testers, intrusion Detection
+
+        [1] Always looking for vulnerabilities in code
+
+        [2] Change management/version Control
+
+            [0] Change will happen!
+
+            [1] Organization, authorization, documentation
+
+            [2] Continuous integration
+
+        [3] Baselining
+
+            [0] Critical Security Objectives
+
+                [0] Encryption
+
+                [1] Input validation
+
+        [4] Consider immutable systems
+
+            [0] Has interchangeble parts
+
+                [0] Embedded device
+
+                [1] Virtual machine
+
+        [5] Infrastucture as code
+
+            [0] Create preset definition files
+
+
+Agile and waterfall are example of code develpment frameworks
+
+Agile defines a sprint with small, rapid, measurable deliverables
+
+The DevOps cycle includes phases which are executed by development and/or operations team
+
+Secure DevOps include automation tools, change management, and baselining, along with consideration for virtual machine setup and variations in systems.

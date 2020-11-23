@@ -1,0 +1,67 @@
+Compiled vs. runtime code
+
+    [0] Compiled (C, python, compiler)
+
+    [1] runtime code (JavaScript, browser)
+
+Proper error handling
+
+    [0] page 404 configured or not
+
+Proper input validation
+
+    [0] SQL injection
+
+Normalization
+
+    [0]  Indexing
+
+        [0] turning one unnormalized Data Record into several normalized data records
+
+Store Procedure
+
+    [0] Check input validation before sending the query to database
+
+Encryption/Code signing
+
+    [0] Digitally sign the code, so whoever gets the code will know the code is in a good order
+
+Obfuscation
+
+    [0] Don't make it so easy for reverse engineering, so people can't copy your code.
+
+Code Reuse/dead code
+
+    [0] Break down as many functions as possible into individual pieces. Continue to call it over and over again. without the risk of errors
+
+    [1] get rid of dead code, bad guy can take advantage of the dead codes.
+
+Server-side vs. client-side execution
+
+    [0] Client
+
+        [0] Fill out form
+
+        [1] Input validation
+
+        [2] Generate query
+
+    [1] Server
+
+        [0] Input validation
+
+        [1] Generates the query 
+
+Memory management
+
+Third-party libraries
+
+Data exposure
+
+Code can be executed with a .exe file on a machine, or run directly from a Web site that is coded as runtime applications
+
+Reuse of a code module that is called from within the program to perform a repetitive action is called a stored Procedure
+
+Third party libraries should be considered in security concerns when coding
+
+Be aware of third party libraries used, maintain patch updates, and stay informed on their status.

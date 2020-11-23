@@ -1,0 +1,31 @@
+VLAN
+
+    [0] Create zones that provide security
+
+DMZ (Demilitarized DMZ)
+
+    [0] Allowing public internet to come in and query, but can't access the LAN.
+
+Wireless Networks
+
+    [0] A Zone that provide wireless access
+
+Guest Network
+
+    [0] Always separated from LAN (A VLAN, A Firewall between the guest network and real network)
+
+    [1] Design and protected
+
+Virtualization Zone
+
+Airgap
+
+    [0] Unplug and become real isolaiton
+
+LAN Zone the core of your network
+
+VLAN is a physical device that designate separate broadcast domains
+
+DMZ - public facing server, protects the public and private network servers with a Firewall
+
+Airgap Zone is a disconnection between networks to provide full isolation

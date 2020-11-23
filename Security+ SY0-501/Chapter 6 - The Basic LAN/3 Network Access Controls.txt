@@ -1,0 +1,78 @@
+# http://itsecgames.blogspot.com/2012/09/attacking-ms-chap-v2.html
+# Nice article to read
+
+Network Access Control
+
+    [0] Wireless network
+
+    [1] Remote Access
+
+    [2] VPN Access
+
+PPP(Point to point protocol)
+
+    [0] Transport layer protocol
+
+        [1] Initiate connection
+
+        [2] Get address informaiton
+
+        [3] Make connection
+
+    [1] Password authentication Protoocl (PAP)
+
+        [0] Password is in the clear
+
+    [2] Challenge handshake authentication protocol (CHAP)
+
+        [0] Server will creat a challenge to the client (Hashed password)
+
+    [3] Extensible Authentication Protocol (EAP)
+
+        [0] A framework that's designed to run inside some transport layer protocol
+
+        [1] Just handling the authentication stuff
+
+EAP
+
+    EAP-MD5:
+
+        [0] Basically MSCHAP
+
+        [1] Takes those passwords and hashes them into a MD5 hash.
+
+    EAP-PSK (pre shared key)
+
+        [0] Uses pre-determined symmetric keys
+
+        [1] Similar to WPA and WPA-2
+
+    EAP-TLS
+
+        [0] Can handle an entire TLS
+
+        [1] Needs server and client certificates
+
+    EAP-TTLS
+
+        [0] Uses the TLS exchange method
+
+        [1] Only the server has the certificates
+
+LEAP
+
+    [0] Lightweight Extensble Authentication Protocol
+
+    [1] Cisco proprietary
+
+    [2] Uses passwords only; no detailed certificate management
+
+    [3] Based on MS-CHAP (including MS-CHAP security shortcomings)
+
+PEAP
+
+    [0] protected Extensible Authentication Protocol
+
+    [1] Created by Cisco, Microsoft and RSA security
+
+    [2] Encapsulates EAP in a TLS tunnel, one certificate on the server

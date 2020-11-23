@@ -1,0 +1,53 @@
+Non-Network Event
+
+    [0] Event that happen on a host even though it's not connected to a Network
+
+    [1] Operating System Events
+
+        [0] Host Starting
+
+        [1] Host Shutdown
+
+        [2] Reboot
+
+        [3] Services starting, stopping, and failing
+
+        [4] Operating system updates
+
+    [2] Application Events
+
+        [0] Application installation
+
+        [1] Application starts, stops, or crashes
+
+    [3] Security Events
+
+        [0] Logons
+
+        [1] Logon successes and failures
+
+    [4] Date, Time, Process/Source, Account, Event Number, Event Description
+
+Network Events
+
+    [0] Events that deals with the communication between the host and something on the Network
+
+    [1] OS or System Level
+
+        [0] Remote Logons (fail or not)
+
+    [2] Application Level
+
+        [0] Activity of the firewall
+
+Centralized Logging
+
+    [0] Use a central repository
+
+        [0] Drag on system
+
+    [1] Use SNMP Systems
+
+        [0] Pulls information needed and generates graphs and charts
+
+Monitoring as a Service (MaaS)

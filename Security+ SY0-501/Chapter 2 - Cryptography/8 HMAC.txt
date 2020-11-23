@@ -1,0 +1,9 @@
+HMAC (Hash Based Message Authentication):
+
+    [0] Put the key behind the text, then hash it.
+
+    [1] HMAC provides message integrity
+
+    [2] HMAC requires each side of the conversation to have the same key
+
+    [3] It's based on standard hashes (MD5, SHA-1, etc)

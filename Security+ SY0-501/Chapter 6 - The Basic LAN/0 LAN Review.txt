@@ -1,0 +1,45 @@
+Switches: (Layer 2)
+
+    [0] Switches filter & forward data based on MAC address
+
+    [1] Where VLANs are set up
+
+    [2] Spanning Tree Protocol (STP) prevents loop floods
+
+VLAN:
+
+    [0] Split up the single broadcast domain into multiple broadcast
+
+    [1] Can take the 12/24 port as VLAN 1 and the rest as VLAN 2, then now we have two seperate switches
+
+    [2] VLAN provides layer 2 seperation of networks
+
+Flood Guarding:
+
+    [0] Spanning Tree Protocol (STP)
+
+    [1] Commonly seen on intrusion prevention systems
+
+        [0] Need something smart that's counting packets
+
+    [2] SYN floods
+
+        [0] Overload a server
+
+    [3] Ping floods / ping scans
+
+        [0] Overwhelm the network / identify what's out there
+
+    [4] Port floods / port scans
+
+        [0] identify open ports on a device
+
+Router: (Layer 3)
+
+    [0] Filter & forward based on IP address
+
+    [1] Gateway router wil always be running the network address translation or NAT
+
+Firewall:
+
+    [0] Runs on gateway router

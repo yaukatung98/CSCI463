@@ -1,0 +1,49 @@
+Authority
+
+    [0] To impersonate or imply a position of authority
+
+    [1] e.g: I'm calling from the CEOs office 
+
+Intimidation
+
+    [0] To frighten by threat
+
+    [1] e.g: I need to talk to your supervisor
+
+Consensus
+
+    [0] To convince of a general group agreement
+
+    [1] e.g: Bob does that mean all the time
+
+Scaracity
+
+    [0] To describe a lack of something
+
+    [1] e.g: These aren't available anywhere else
+
+Familiarity
+
+    [0] To imply a closer relationship
+
+    [1] e.g: Didn't we meet at the Holiday Party
+
+Trust
+
+    [0] To assure reliance on their honesty and integrity
+
+    [1] Anyone here in the I.T Department can handle that task
+
+Urgency
+
+    [0] To call for immediate action
+
+    [1] e.g: The web server is about to go down
+
+
+Social engineering priciples are focused more on people's behavior as opposed to their physical actions
+
+Be comfortable with these principles and how each are applied
+
+Never give out any sentitive information
+

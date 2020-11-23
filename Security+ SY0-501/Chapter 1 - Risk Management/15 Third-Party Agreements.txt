@@ -1,0 +1,75 @@
+Third-Party Agreements
+
+    [0] Business Partners Agreement (Very Common)
+
+        [1] Primary Entities (Who are the partners that are going to be working together)
+
+        [2] Time Frame (Some form of timeframe, if it is ongoing, then some methodology for dissolution in the future if necessary)
+
+        [3] Financial Issues (How much investment is each partner putting in, how much draw can each partner take depending on profitability)
+
+        [4] Management (If you have partners, what are the functions of those partners. Also, when do we have partner meetings and the type of record keeping to be kept as well as the location of all partnership records)
+
+
+
+    [1] Service Level Agreement 
+
+        [1] Service to be provided (Service to be provided a certain quantity with a certain amount of time)
+
+        [2] Minimum up-time (Minumal uptime as well as potential penalties or discounts for not achieving a minimum uptime)
+
+        [3] Response Time (What type of response time (Contacts) does the service provider guarantee to me in order to rectify the situation)
+
+        [4] Start and end date
+
+
+
+    [2] Interconnection Security Agreement
+
+        [1] Statement of requirements
+
+            [1] Why are we interconnecting?
+
+            [2] Who is interconnecting?
+
+        [2] System security considerations
+
+            [1] What information is interconnecting?
+
+            [2] Where is this information going?
+
+            [3] What services are involved?
+
+            [4] What encryption is needed?
+
+        [3] Topological drawing (To define how that's going to work)
+
+        [4] Signature Authority (A timeframe for this interconnection as well as scheduling technical reviews and security reviews)
+
+    
+
+    Memorandum of Understanding/Agreement
+
+        [1] Purpose of the interconnection
+
+        [2] Relevant authorities (Who would be the people to speak for this particular agreement)
+
+        [3] Specify the responsibilities
+
+            [1] Downtime
+
+            [2] Billing
+
+        [4] Define the terms of the agreement
+
+            [1] Cost
+
+        [5] Termination/Reauthorization
+
+
+
+BPA's and SLA's are used in the private sector.
+
+ISA's and MOU/MOA's are used in the public sector.
+
+Have a clear Understanding of when and where to use each of these third-party agreements.

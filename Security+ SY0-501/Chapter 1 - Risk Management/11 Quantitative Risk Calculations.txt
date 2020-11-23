@@ -1,0 +1,46 @@
+
+Exposure Factor:
+
+    [0] Percentage of an asset that's lost as the result of an incident
+
+        For Example:
+
+        [0] When the router got completely damaged, I would rate it as "1"
+
+        [1] When the partial router rack got damaged and I just have to replace its power supplies and some cables, I would rate it as "0.75"
+
+
+
+*Asset Value* X *Exposure Factor* = *Single Loss Expectancy*
+
+For Example:
+
+[0] The Asset Value of router is $5000, and the Exposure Factor is 1, The Single Loss Expectancy will be 5000
+
+
+
+ARO (Annualized Rate of Occurrence)
+
+For Example:
+
+[0] My server room probably will get flooded once 20 years, so the ARO will be 1/20 == 0.05
+
+
+
+*SLE* X *ARO* = *Annualized Loss Expectancy*
+
+With the ALE, we can say in real dollars based on a Percentage chance of something happenining. How much that thing is going to cost. 
+
+
+
+MTTF: Mean time to Failure
+
+[0] The duration of working
+
+MTTR: Mean time to Repair
+
+[1] The duation of raiparing time
+
+MTBF: Mean time Bewteen Failure
+
+[2] The combination of MTTR & MTTF, a time from a failure all the time to Repair and time until it fails again.

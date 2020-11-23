@@ -1,0 +1,32 @@
+satcom
+
+    [0] Satallite phone
+
+Near-field communication (NFC)
+
+ANT/ANT+
+
+    [0] slow and well protected
+
+    [1] build in the bike or other exercise machine
+
+Infrared red
+
+    [0] Send out instead of receiving 
+
+USB
+
+    [0] USB On-The-Go
+
+Wifi and tethering
+
+    [0] Wi-Fi Direct (WPS)
+
+    [1] Wireless tethering (Hotspots)
+
+
+NFC is not secure when activated
+
+Mobile devices are made for easy connection (ANT, NFC, USB, Wi-Fi Direct), leaving these devices vulerable
+
+Set up password protection on your phone

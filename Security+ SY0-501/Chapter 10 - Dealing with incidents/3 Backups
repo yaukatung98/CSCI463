@@ -1,0 +1,27 @@
+Full backup
+
+    [0] Diferential backup
+
+        [0] Backup of all the changes since the last full backup
+
+    [1] Incremental Backup
+
+        [0] Only backs up changes made from last backup
+
+    [2] Snapshots
+
+Local backups
+
+    [0] Nearby if antthing messes up
+
+Offsite backups
+
+    [0] Can remote In
+
+Cloud backup
+
+Understand the differences between an incremental and differential backup
+
+snapshots are typically used with virtual machinese and are usually not stored on separate media
+
+Be able to describe the pros and cons of local vs remote vs cloud based backups

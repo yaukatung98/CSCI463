@@ -1,0 +1,26 @@
+Public key 
+
+    [0] Encrypts
+
+Private key
+
+    [0] Decrypts
+
+RSA:
+
+    [0] Use two prime numbers (like 11, 17) to generate a semi-prime number
+
+    [1] It usually really big
+
+Eliptic Curve Cryptography (ECC):
+
+    [0] A lot faster than RSA
+
+    [1] it require a lot less bit, for example it can replace a 3000 bit of RSA with 256 bit of ECC.    
+
+
+Public keys are paired with a private key (ie Key Pair) when using RSA Asymmetric Cryptosystems
+
+ECC can create a smaller key than RSA provides the same security with increased performance
+
+Each public key has a single private key, withput the private key the information can not be decrypted

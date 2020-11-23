@@ -1,0 +1,59 @@
+Hash
+
+    [0] Provides integrity 
+
+    [1] An algorithm
+
+    [2] Comes out in a fixed value every time
+
+    [3] Hashes are one way
+
+    [4] Deterministic (Change one byte of the original document, the hash will be different)
+
+
+Hash Types
+
+    Collision:
+
+        [0] Take two different types of data, and generate the same hash. If you can force a hash to make occational collisions, it can often be figured out how the hash works.
+
+    [0] Message Digest 5 (MD5)
+
+        [0] Invented 1992
+
+        [1] Ron Rivest
+
+        [2] 128 bit hash
+
+        [3] Has Collision, not used that commonly anymore
+
+    [1] Secute Hash algorithm (SHA)
+
+        [0] Developed by NIS
+
+        [1] SHA-1 (160 bit hash)
+
+        [2] Has Collision, not used that commonly anymore
+
+    [2] SHA-2 (256, 512)
+
+        [0] Like SHA, but no collisions found yet  
+
+    [3] RIPEMD (Race Integrity Primitives Evaluation Message Digest)
+
+        [0] Not very commonly
+
+        [1] Open Standard
+
+        [2] 128, 160, 256, 300 bit digest
+
+
+
+What do we need hash:
+
+    [0] Password storage (OS don't store plain password, it will hash whatever the users type in, and compare to the correct password's hash.)
+
+    [1] We use hash everywhere
+
+
+

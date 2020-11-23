@@ -1,0 +1,30 @@
+ Hosted application
+
+    Private Cloud
+
+        [0] Just within the organization (Keep Out)
+
+    Public Cloud
+
+        [0] Google Cloud (Do whatever you want) 
+
+    Hybrid Cloud
+
+        [0] A mixture of Private and Public
+
+    Community Cloud
+
+        [0] Pay a lilttle bit of money to join a giant ass club
+
+
+Virtualizing the OS system
+
+Virtual Desktop Environment (VDE)
+
+Virtual Desktop Integration (VDI)
+
+A cloud is essentially a remote location running virtualized software, and the hardware is hosted by a third party
+
+There are various cloud models: private, public, Hybrid, and Community
+
+VDE is accessing a remote physical desktop where VDI is the actual virtualized environment in the cloud.

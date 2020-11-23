@@ -1,0 +1,19 @@
+SSL Stripping aka: Replay attacks
+
+    [0] Cookie Cadger
+
+Protecting Out Assets
+
+    [0] Use secure proticol on unsecure networks 
+
+    [1] Use https on Web sites that collect information
+
+HTTP strict transport security (HSTS)
+
+Use VPN in non-secure environments
+
+Open networks are dangerout because they are insucure
+
+Understand how an attacker can get your informaiton and use it against your
+
+Use encryption protocols to prevent these attacks

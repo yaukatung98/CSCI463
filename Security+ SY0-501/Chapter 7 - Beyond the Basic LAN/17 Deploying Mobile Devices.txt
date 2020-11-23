@@ -1,0 +1,51 @@
+Mobile devices are everywhere, used for all kinds of things
+
+Mobile device management tool
+
+Mobile application maanagement
+
+mobile deployment options
+
+    [0] Corporate owned, business only (COBO)
+
+        [0] Company owned
+
+        [1] Company decides what to do with that device
+
+        [2] What applications are on that device
+
+        [3] What encryption is used
+
+        [4] What wireless is connected
+
+    [1] Corporate owned, personally enabled (COPE)
+
+        [0] Everyone has the same device
+
+        [1] can control devices much easier
+
+        [2] People will still want to use their own devices
+
+        [3] Learning curve
+
+    [2] Choose your own device
+
+        [0] Users get to choose from a list of approved devices.
+
+        [1] Less of learning curve
+
+    [3] Bring your own device (BYOD)
+
+        [0] Users get to choose based on their experiences
+
+        [1] Learning curve is decreased
+
+        [2] Very heavy device management
+
+        [3] Mobile application management
+
+Mobile devices are prolific and very useful in both personal and corporate environments
+
+Be familar with the deployment models discussed and what the pros and cons are of each
+
+Consider mobile devices management for privacy & productivity

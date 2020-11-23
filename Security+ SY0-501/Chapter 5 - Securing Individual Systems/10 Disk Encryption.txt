@@ -1,0 +1,29 @@
+Slow down you system
+
+Disk Encryption Usage
+
+    [0] Mobile and portable devices
+
+        [0] Laptop, smartphones, tablets
+
+    [1] Desktop Systems with limited security
+
+Trusted Platform Module (TPM)
+
+    [0] a chip burned into the device
+
+    [1] A full blown public private key and there is no way to get the private key out
+
+    [2] If the harddrive is encrypted with TPM, the harddrive won't work without connected to the motherboard
+
+Pretty Good Privacy (PGP) disk
+
+TrueCrypt
+
+BitLocker
+
+Disk encryption can be a valuable tool for mobile devices, and other devices in areas without adequate physical security
+
+Disk encryption can be broken into two groups: TPM & non-TPM
+
+Two examples of disk encryption programs are BitLocker and fileVault

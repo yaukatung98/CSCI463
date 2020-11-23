@@ -1,0 +1,79 @@
+Remote desktop emulates another desktop in that network
+
+VPN directly connects into the network from a remote location, fully functional
+
+Connection Options for VPN
+
+    [0] Leased line
+
+    [1] Via public network, virtualized
+
+VPN is way slower
+
+SPlit vs full tunneling
+
+    [0] Split tunneling increase performance creating a split in traffic using both VPN or std internet traffic+ 
+
+VPN Setup Steps
+
+    [0] Protocol to set up tunnel 
+
+    [1] Protocol to handle authentication and encryption
+
+PPTP
+
+    [0] Point-to-Point Tunneling Protocol
+
+    [1] Oldest VPN Protocol
+
+    [2] Uses PPP for tunnel
+
+    [3] password only
+
+    [4] TCP port 1723
+
+L2TP
+
+    [0] Layer 2 Tunneling Protocol
+
+    [1] Cisco proprietary 
+
+    [2] L2TP tunnel
+
+    [3] IPsec encryption
+
+    [4] UDP ports 500, 4500
+
+Pure IPsec
+
+    [0] uses IPsec for tunneling and encryption
+
+    [1] UDP ports 500, 4500
+
+    [2] Great for IPv6
+
+SSL/TLS
+
+    [0] Secure Sockets Layer / Transport Layer Security
+
+    [1] TCP port 443
+
+    [2] Often works within a web browser
+
+    [3] TUN/TAP (virtual network driver) tunnel
+
+    [4] TLS encryption
+
+OpenVPN
+
+    [0] Unique tunnel
+
+    [1] Encryption based on SSL/TLS Protocol
+
+    [2] TCP 1194 but can be changed
+
+Two types of VPNs: remote acess and site to site
+
+Know the VPN protocols described (PPTP, L2TP, etc.)
+
+know the VPN port numbers

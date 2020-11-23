@@ -1,0 +1,29 @@
+Web apps 
+
+Injection attack
+
+    [0] Add some extra stuff into your input into an application that does potentically nauty thing
+
+    [1] Code Injection
+
+        [0] Ask the code to do something isn't supposed to do
+
+    [2] Command Injection
+
+    [3] SQL
+
+        [0] inner join
+
+        [1] insert into
+
+        [2] select from
+
+    [4] LDAP (Lightweight Directory Access Protocol)
+
+        [0] X.500
+
+    [5] Bufferoverflow
+
+    [6] Integer overflow
+
+    [7] Buffer and integer overflow attacks are inputs into application forms that exceed the maximum allowed bits

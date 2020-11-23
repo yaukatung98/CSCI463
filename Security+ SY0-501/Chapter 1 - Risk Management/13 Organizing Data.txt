@@ -1,0 +1,71 @@
+Data Sensitivity/Labeling
+
+    [0] Public
+
+        [1] No restrictions (ZIP Code)
+
+    [1] Condifential
+
+        [1] Limited to authorized viewing as agreed on by the parties involved
+
+    [2] Private
+
+        [1] Limited to only the individual to whom the informaiton is shared
+
+        [2] Personally Identifiable informaiton (PII)
+
+    [3] Proprietary
+
+        [1] Like private but at corporate level (Formula of Coca-Cola)
+
+    [4] Protected Health Information (PHI)
+
+        [1] Health Insuarance Portability and Accountability Act (HIPAA)
+
+
+
+Data Roles
+
+    [0] Owner
+
+        [1] Legally responsible for the Data
+
+    [1] Steward/Custodian
+
+        [1] Maintain the accuracy and integrity of Data
+    
+    [2] Privacy Officer
+
+        [1] Ensures data adheres to privacy policies and procedures
+
+
+
+Data Users
+
+    [0] Users
+
+        [1] Assigned standard permissions to complete task.
+
+    [1] Privileged Users
+
+        [1] Increased access and control relative to a Users.
+
+    [2] Executive Users
+
+        [1] Set policy on data and incident response actions.
+
+    [3] System Administrator
+
+        [1] Could do anything to the database, in charge of day-to-day job.
+
+    [4] Data Owner
+
+        [1] The owner who owns the database and all the legal responsibility.
+
+
+
+Data Labeling allows recipients of the data to know if or how the data can be shared.
+
+The "Owner" role in the data role model has the legal responsibility of the data.
+
+User permissions are set with just enough permissions to accomplish the tasks.

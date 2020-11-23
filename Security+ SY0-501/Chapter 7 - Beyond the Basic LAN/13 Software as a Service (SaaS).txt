@@ -1,0 +1,5 @@
+SaaC enables you to acces applications via subscription
+
+Microsoft Office 365 is a great example of SaaS
+
+Other SaaS examples include Dropbox and Google Docs

@@ -1,0 +1,134 @@
+Incident Response Process
+
+    [0] Preparation
+
+        [0] The big plan
+
+        [1] Who's doing what?
+
+        [2] Oeganize the types of incidents that might happen
+
+    [1] Reporting
+
+        [0] What reports go to whom?
+
+        [1] Escalation
+
+    [2] Practice Scenarios
+
+    [3] Identification
+
+        [0] Recognize what incident has occurred
+
+        [1] Reports from users
+
+        [2] Check the monitoring tools you use
+
+        [3] Watch alerts and logs
+
+        [4] Assess the impact
+
+        [5] Define who's involved
+
+    [4] Containment
+
+        [0] Mitigate the damage
+
+        [1] Stop the attack
+
+        [3] Segregate the network
+
+        [4] Shutdown the system
+
+        [5] Turn off a service
+
+    [5] Eradication
+
+        [0] Remove the malware
+
+        [1] Close off vulnerability 
+
+        [2] Add new controls
+
+    [6] Recovery
+
+        [0] Restore from backups
+
+        [1] Pull from snapshots
+
+        [2] Hire replacement personnel
+
+        [3] Monitor to ensure good operations
+
+    [7] Documentation
+
+        [0] Document the incident
+
+        [1] What failed?
+
+        [2] What worked?
+
+        [3] Generate a final report
+
+Incident Response plan
+
+    [0] CIRT - Cyber Incident Response Team
+
+        [0] A group of people whose job is to respond to all incident
+
+        [1] Full of part time - or both
+
+        [2] IT security team
+
+        [3] Human Resources
+
+        [4] Legal
+
+        [5] Public Relations
+
+    [1] Document incident types/category definitions
+
+        [0] Physical access
+
+        [1] malware
+        
+        [2] Phishing
+
+        [3] Social engineering
+
+        [4] Data access
+
+    [2] Roles and responsibilities
+
+        [0] users
+
+        [1] Help desk
+
+        [2] Human Resources
+
+        [3] Database Manager
+
+        [4] Incident hotline
+
+        [5] IR manager/IR officer
+
+        [6] IR team
+
+    [3] Reporting requirements / Escalation
+
+        [0] Determine severity
+
+        [1] Based on severity have a clear chain of escalation
+
+        [2] Informing law enforcement
+
+    [4] Practice
+
+        [0] Annual Scenario drills
+
+
+Preparation is key to properly handling incidents 
+
+Have a plan and execute it when incidents occurred
+
+After any incident document everything

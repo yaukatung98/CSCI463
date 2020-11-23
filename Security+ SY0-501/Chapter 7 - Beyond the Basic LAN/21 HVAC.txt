@@ -1,0 +1,37 @@
+Heating, Ventilation, and air conditioning (HVAC)
+
+    [0] The cooler you run the eletronics, the happier it is
+
+Office environment
+
+    [0] where everyone walks around, good for human being
+
+Server rooms
+
+    [0] Super expensive AC to cool the racks of server 24/7
+
+Infrared camera (Thermal Images)
+
+Zone-based HVAC
+
+Hot & cold aisles
+
+    [0] Contained system
+
+    [1] Cold air come out from the floor, then force the hot air out of the room through the ceilling 
+
+Securing HVAC
+
+    [0] Leave an air gap (No connection to other networks)
+
+    [1] Use VLAN 
+
+    [2] MAC filtering
+
+    [3] Remote monitoring
+
+Make sure you keep the server room cool and dry
+
+In server rooms, HVACs use either hot and cold aisles a contained system to vent hot air out and away from the server racks
+
+Some HVAC security measures include air gaps, VLANs and to understand HVAC service contracts

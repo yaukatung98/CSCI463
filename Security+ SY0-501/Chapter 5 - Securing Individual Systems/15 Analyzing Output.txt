@@ -1,0 +1,18 @@
+Anti-Malware / Anti-Virus
+
+Host based firewall
+
+File Integrity
+
+SystemFileChecker
+
+    [0] Check up the core files that makes up the Windows Operating System.
+
+
+Applicaiton Whitelist
+
+False positive - Scan results identify a file that may not actually harm a system or is allowed on the system
+
+Host-based firewalls are set up as implicit deny by default, access is controlled by an ACL Whitelist
+
+File integrity check verifies the file isn't corrupted, and that the version and date match  expectation.

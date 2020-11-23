@@ -1,0 +1,40 @@
+Physical attacks
+
+    [0] Real people being either face to face or very close to being face to face
+
+Virtual attacks
+
+    [0] Email and web sites attack
+
+Phishing
+
+    [0] Emails that are used to steal personal information
+
+Spear Phishing
+
+    [0] Phishing that is directed to a specific person or company
+
+Whaling
+
+    [0] Spear phishing that targets senior management and executives
+
+    [1] Subpoena/critical memorandum
+
+Vishing
+
+    [0] Uses the telephone system to get private information
+
+Hoax
+
+    [0] Warns someone that something bad is happening when its not
+
+Watering hole attack
+
+    [0] An attempt to infect websites that a group of end users would normally go to gain access to their information or network.
+
+
+Recognize different types of social engineering attacks
+
+Practice safe processes to prevent these attacks
+
+Always be aware!

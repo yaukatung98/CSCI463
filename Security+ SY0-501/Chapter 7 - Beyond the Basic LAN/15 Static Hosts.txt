@@ -1,0 +1,11 @@
+Static Hosts Hardening
+
+    [0] Change default passwords
+
+    [1] Turn off unnecessary services
+
+Static hosts are often single purpose devices
+
+Static hosts need to be monitored and updated
+
+Static hosts are often secured using defense in depth concepts

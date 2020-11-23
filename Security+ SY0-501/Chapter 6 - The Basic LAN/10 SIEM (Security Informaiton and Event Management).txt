@@ -1,0 +1,44 @@
+Aggregation
+
+    [0] Grabbing data and store it
+
+    [1] Time synchonization
+
+        [0] Something going through the firewall about the same time that somebody is attacking one of your servers behind the wall
+
+    [2] Event duplicaiton
+
+        [0] When bunch of devices reporting the same issues, it takes in place
+
+    [3] Normalization
+
+        [0] Separate the data into different tables, so the data can be more efficient and allows our analysis and reporting tools to work in a little bit better.
+
+    [4] Logs
+
+    [5] Write once, read many (WORM)
+
+Correlation
+
+    [0] Analyze the data and report it
+
+    [1] Alrets
+
+        [0] For notificaiton if something goes bad
+
+    [2] Triggering
+
+        [0] Exceeding thresholds
+
+    [3] Splunk
+
+    [4] ArcSight
+
+    [5] Elk
+
+SIEM Tools aggregate and correlate data, allowing you to organize the into valuable information 
+
+A SIEM tool you can get to the time sequence of an event in all the logs quickly 
+
+SEIMs have alerts and the ability to notify you based on a configurable Trigger
+

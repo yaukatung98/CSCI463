@@ -1,0 +1,37 @@
+Authorization Models
+
+    [0] Mandatory Access Control
+
+        [0] MAC
+
+        [1] Labels
+
+        [2] Ex: When government information is "Top Secret"
+
+    [1] Discretionary Access Control
+
+        [0] DAC
+
+        [1] Owner of the data defines Access
+
+        [2] Roles
+
+    [2] Role-based Access Control
+
+        [0] RBAC
+
+        [1] Access to resources is defined by a set of rules
+
+        [2] Groups
+
+Access Control List:
+
+    [0] Implicit deny
+
+        [0] Unless you pecifically allow something to happen, it's not going to happen
+
+Access is defined by access control lists
+
+implicit deny prevents access unless specifically permitted
+
+ACL's manifest in many different ways

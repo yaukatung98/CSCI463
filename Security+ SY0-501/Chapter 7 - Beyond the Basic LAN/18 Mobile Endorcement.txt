@@ -1,0 +1,33 @@
+Sideloading
+
+Carrier unlocking
+
+Rooting/jailbreaking
+
+Root Access
+
+Custom Firmware Issues (Rooting)
+
+    [0] Auto updates disabled
+
+    [1] Trouble accessing the "store"
+
+    [2] Exposure to malware
+
+Firmware OTA(Over the Air) updates
+
+Camera Use
+
+SMS
+
+Recording mic/GPS tagging
+
+payment methods
+
+Mobile devices have stores to download secure software
+
+Be aware of sideloading if the software has not met manufacturer's security standards
+
+By default, admin privileges are not given on a phone
+
+A rooted phone is one where custom firmware has been installed, resulting in exposure to malware and other security issues

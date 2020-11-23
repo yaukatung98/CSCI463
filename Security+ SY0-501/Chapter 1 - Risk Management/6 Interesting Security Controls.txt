@@ -1,0 +1,26 @@
+
+Mandatory Vacation:
+
+    [0] Requires individuals to take vacations usually at different time of the year. It's used to detect fraud and unauthorized activity. For example, if something bad is happening and then it quits happening when Bob's on vacation. That could be a clue.
+
+    [1] A type of control to detect vulnerability or unauthorized activity
+
+Job Rotation:
+
+    [0] Means periodically switching people around to work in different positions. This is handy in that it will enable rapid replacement of somebody whos mission critical suddenly becomes sick or quits. It also avoids contempt of position. For example, everybody get jealous of Bob because he gets to work in that first position, and in that way it keeps people happy and doing their job.
+
+Multi-person Control:
+
+    [0] Means that more than one person is required to accomplish a task or function. It prevents one person from initialing an action that could be bad like launching missiles or formatting hard drives. But it also allows multiple people to make sure that something is done in a right way
+
+    [1] Allows for checks and balances of critical functions
+
+Separation of Duties:
+
+    [0] Means that individuals should not perform all critical or privileged duties across the board. For example: The auditing department should do auditing and the security folks should do security, and sales people should do sales. We shouldn't have them intermixing.
+
+Principle of Least Privilege:
+
+    [0] Means that users are granted only the level of privilege necessary for them to perform their job. When we hear the term privilege we usually use the word need to know what then that way people don't get into privileges that they shouldn't have.
+
+    [1] Set resource access to what is only necessary to perform the job

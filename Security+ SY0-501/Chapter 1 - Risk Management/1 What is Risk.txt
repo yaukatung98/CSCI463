@@ -1,0 +1,23 @@
+Risk Management Terminology
+
+[0] Assets: any part of our infrastructure that we are worried about getting harmed. (A router)
+
+[1] Vulnerabilities: A weakness to an asset that leaves it open to bad tings happening to it. (Never change the default router password)
+
+[2] Threats: A negative event (action) that exploits a vulnerability.
+
+  [2.1] Threat Agent: The object that caused the threat. Could be a person or hurricane.
+
+[3] Likelihood: Defines the level of certainty that something bad is going to happen.
+
+  [3.1] Quantitative Likelihood: Data that we can refer to and look at it of a percentage change of happening in any given year.
+
+  [3.2] Qualitative Likelihood: Hard to put numbers to against to. For example: customer loyalty. We use low-median-high to measure.
+
+[4] Impact: The harm caused by a threat
+
+Threats -> Vulnerability = Risk
+
+Deal with high impact, high Likelihood threats before dealing with low impact threats first.
+
+NIST SP 800-30: a list of all kinds of threats and Vulnerabilities that the typical security person might be exposed to.

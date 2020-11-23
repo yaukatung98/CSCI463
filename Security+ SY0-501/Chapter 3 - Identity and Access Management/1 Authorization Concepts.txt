@@ -1,0 +1,26 @@
+Permissions:
+
+    [0] What are the things that assigned to you to let you do.
+
+
+Rights/Privileges:
+
+    [0] permissions in a whole, like do you have right to log in the systems
+
+
+
+Least Privilege:
+
+    [0] Give the user the least amount of right for user to do.
+
+
+Separation of duties:
+
+    [0] how people ties into their position, for example, salary department, has to have several people incharge of that just incade somebody might be tempted to change a salary and start getting big checks.
+
+
+Permissions are applied to reources
+
+Two authorization strategies: Least privileged and separation of duties
+
+Rights and privilages we tend to assign at system level

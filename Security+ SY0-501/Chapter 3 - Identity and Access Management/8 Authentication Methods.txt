@@ -1,0 +1,53 @@
+PAP (Password Authentication Protocol):
+
+    [0] Sends username and password in the clear
+
+    [1] Not anything that we sue anymore
+
+
+
+CHAP (Challenge-Handshake Authentication Protocol):
+
+    [0] Challenge Message sends from the server
+
+    [1] Uses a hash value to authenticate
+
+
+
+NTLM (NT LAN Manager):
+
+    [0] Same as CHAP except its each side challenging the other side
+
+
+
+Kerberos:
+
+    [0] Domain Controller: Key distribution center (KDC)
+
+        [0] Authentication Service
+
+        [1] Ticket Granting Service
+
+        [2] TCP / UDP 88
+
+    [1] Ticket Granting Ticket [TGT] / Security Identifier (SID)
+
+        [0] Shows that I'm authenticated to the domain
+
+    [2] Used to authenticate to windows domain controllers
+
+
+
+SAML (Security Assertion Markup Lanuguage):
+
+    [0] For web applications
+
+
+
+LDAP (Lightweight Directory Access Protocol):
+
+    [0] TCP and UDP 389
+
+    [1] Used when we access resources within Windows
+
+    [2] Not so much authentication as a structured language to query directories

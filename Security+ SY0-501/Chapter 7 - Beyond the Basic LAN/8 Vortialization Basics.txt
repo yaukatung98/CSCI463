@@ -1,0 +1,33 @@
+Virtualization
+
+    [0] Host systems is a haradware device
+
+    [1] Virtualize the hardware from the Host
+
+Emulation uses software to imitate hardware
+
+Virtualization Concepts
+
+    [0] Virtual version of host hardware
+
+    [1] Multiple virtual servers on one physical device
+
+    [2] Hardware consolidation and reduced energy consumption
+
+    [3] Virtual machines are saved as files, making for easy recovery
+
+    [4] Virtualization is easy for duplication
+
+    [5] Virtualization is handy for IT research
+
+Hypervisor - Virtual Machine Monitor (VMM)
+
+    [0] Hypervisor, type 2 - runs on top oh host OS
+
+    [1] Hypervisor, type 1 - runs directly on top of hardware, independent of host OS
+
+Virtualization is a virtual version oh host hardware
+
+Emulation is software solution that is replacing a hardware component
+
+Virtualization provides easy maintainance, reduction of hardware, and quick recovery when needed

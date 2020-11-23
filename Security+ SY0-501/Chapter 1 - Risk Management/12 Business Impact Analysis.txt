@@ -1,0 +1,98 @@
+3 Primary Steps to Business Impact Analysis
+
+    [0] Determine Mission Processes and Recovery Criticality 
+    [1] Identify Resource Requirements
+    [3] Identify Recovery Priorities for System Resources
+
+
+
+Determine Mission Processes:
+
+    [0] What are the critical mission that what we do within our I.T. infrastructure.
+        
+        [0.0] Our Internet and having that up and running.
+        [0.1] Our file servers.
+
+Identify Critical Systems:
+
+    [0] If our cable modem doesn't work, we have a problem and we're not going to be able to achieve out mission essential function.
+
+        [0.0] If the server goes down, we will have a problem.
+
+Single Point-of-Failure
+
+    [0] We can avoid these faiulres by using redundancy defense in depth.
+
+        [0.0] For Example, we can configure raid for my raid server, we can set up backups, whatever I need to do.
+
+Identify Resource Requirements:
+
+    [0] What do I need for these different types of resources.
+
+Identify Recovery Priorities:
+
+    [0] If everything goes down, what are the Priorities that I have to do to get us to run the best.
+
+
+
+Impact:
+
+    [0] Poperty
+
+    [1] People
+        [1.1] Safety
+        [1.2] Life
+
+    [2] Finance
+        [2.1] Credit
+        [2.2] Cash Flows
+        [2.3] Accounts Receivable 
+
+    [3] Reputation
+
+
+
+PII (Personal Identification Information): Your name, Your address, Your SSN
+PHI (Personal Health Inforamtion): Your Health history, any diagnoses that you've had.
+
+
+
+PIA (Privacy Impact Assessment): 
+
+    [0] What will the impact be to us if these the privacy stuff that we're in control of where to get out one way or another.
+
+    [1] What laws and regualtions and what obligations that we might run into and then you know what we would have to be doing if that were to get out.
+
+
+
+PTA (Privacy Threshhold Assessment):
+
+    [0] You're going out to do an assessment you have certain types of data. And you go out and say what is this data, where is this data, how are we storing this data.
+
+    [1] Often an in-house document
+
+
+
+RTO (Recovery Time Objective):
+
+    [0] Minimum time to restore critical systems 
+
+    (The minimum time necessary to restore a critical system to operation)
+
+    [1] Maximum time critical systems down without substantial impact 
+
+    (It can also mean the meximum time that a critical system can be down without substantial impact)
+
+
+
+RPO (Recovery Point Objective)
+
+    [0] Maximum amount of data that can be lost without substantial impact
+
+
+
+Recovery Priorities help define what needs to be addressed to maintain busness continuity.
+
+Impact can be measured in terms of property and asset loss, productivity cost, and financial effect.
+
+PIA estimates that cost of loss of personal privacy or proprietary data.

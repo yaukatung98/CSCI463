@@ -1,0 +1,57 @@
+Different It Security Governance
+
+[0] Laws and Regulations:
+
+    [0] HIPAA (Health Insurance Portability and Accountability, Act of 1996)
+
+[1] Standards
+
+    [1.1] Governate Standards: NIST (National Institute of Standards)
+
+    [1.2] Industrial Standards: PCI-DSS (Payment Card Industry Data Security Standard)
+
+[2] Best Practices
+
+    [2.1] How different people tell you the best way to do their stuff. (Microsoft Best Practices)
+
+[3] Common Sense
+
+
+
+Different types of document
+
+[0] Policy: A document that you can hold in your hand that defines how we're going to be doing something. (Employees, what they can or can't do on the organization's equipment)
+
+    [0] Broad in nature
+    [1] Used as directives
+    [2] Define roles and responsibilities
+
+[1] organizational Standard: Has more details than policy, it's going to define the level of performance for our policy. (For example, a policy would say, we will use strong password. While in organizational standard, we would say, it must be 12 characters alphanumeric and it has to be changed every three months)
+
+
+
+Procedure:
+
+    [0] Step by Step
+    [1] How we do the task
+
+
+
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*
+*                        Security controls                                     *
+*    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-     *
+*    *    Laws and Regulations    Common Sense      *     *
+*    *                        Best Practices                            *      *
+*    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-      *
+*    *            Policies                Standards                  *       *
+*    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-      *
+*                           Procedures                                             *
+*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*
+
+
+
+Security controls are defined within the policies and Standards
+
+Sources of IT governance come from Laws & Regulations industry best practices internal Standards
+
+Policies, Security controls and standards help define and build procedures.

@@ -1,0 +1,13 @@
+TCP/IP and Internet
+
+SSH Protocol
+
+    [0] SSh has built-in encryption
+
+Transport Layer Security (TLS)
+
+Applications originally were not encrypted
+
+Some applications like SSH provide their own encryption
+
+Other applicaitons like HTTPS rely on protocols such as TLS

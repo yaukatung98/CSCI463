@@ -1,0 +1,31 @@
+Blue Jacking:
+
+    [0] Steal Bluetooth session.
+
+Blue Snarfing:
+
+    [0] Actually connecting to a bluetooth device in order to grab data and steal data and take it.
+
+WPS:
+
+    [0] Dangerous
+
+Hidden WIFI:
+
+    [0] WIFI SD card
+
+Dispalys:
+
+    [0] Rubber Ducky
+
+Avoid backdoors
+
+Turn off Ports
+
+Patch Devices
+
+Bluetoothe connections are not very secure
+
+Watch out for Hidden WIFI and SD WIFI card
+
+Keep all devices patched and up-to-date

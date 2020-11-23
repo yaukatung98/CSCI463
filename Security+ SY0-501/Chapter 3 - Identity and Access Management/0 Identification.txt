@@ -1,0 +1,48 @@
+Authentication Factors:
+
+    [0] Something you know (Password)
+
+    [1] Something you have (Smart Card)
+
+    [2] Something about you (Bio Metric, retinal Scanners)
+
+
+
+Something you know:
+
+    [0] Password
+
+    [1] PIN codes
+
+    [2] CAPTCHA
+
+    [3] Security Questions
+
+
+
+Something you have:
+
+    [0] Smart Card
+
+    [1] RSA Key (Steam Security Guard)
+
+
+
+Something about you:
+
+    [0] Windows Bio Scanners
+
+
+
+Something you do:
+
+    [0] Typing style
+
+
+
+Somewhere you are:
+
+    [0] Gas station ZIP code enter
+
+
+Federates system trust in inherited from a diferent trusted system

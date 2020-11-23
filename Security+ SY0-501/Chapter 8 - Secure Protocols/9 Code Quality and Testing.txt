@@ -1,0 +1,23 @@
+Static code analyzers
+
+    [0] Look for standards type of error, just reading it, not running
+
+Dynamic code analysis
+
+    [0] runs the code looks for logic error, security holes, fuzzing
+
+Stress test
+
+    [0] Putting the servers underload
+
+    [1] Sandbox
+
+    [2] Model verification
+
+Production
+
+    [0] Static code analyzers review the actual code syntax and coding errors
+
+    [1] Dynamic code analysis runs the code and looks for logic errors and security issues
+
+    [2] In the staging phase, tests run the code through simulated scenarios, checking stress handling, throughput, and performance

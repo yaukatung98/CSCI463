@@ -1,0 +1,74 @@
+Different Types of Frameworks
+
+    [0] Regulatory
+    [1] Non-Regulatory
+    [2] National Standards
+    [3] International Standards
+    [4] Industry-specific Frameworks
+
+
+
+NIST SP800-37: 
+
+    [0] National Standard
+    [1] Regulatory
+
+
+
+ISACA IT Infrastructure
+
+    [0] Non-Regulatory
+
+
+
+ISO 27000
+
+    [0] A risk Management Framework that people all over the world can use
+
+
+
+The Framework of NIST Risk Management Framework:
+
+    [0] Categorize Information Systems
+
+        [0.1] Categorize your workflows and your processes and your vendors and all of your diffreent organizational inputs and outputs
+
+        [0.2] This is a big job and one of the first important steps you can do when it comes to getting everthing organized using this particular risk management Framework
+
+        [0.3] End up generating the huge list of different types of assets and workflows and processes
+
+    [1] Select Security Controls
+
+        [1.1] Start looking at all of the different things that are taking place and based on regulations and laws and standards and best practices and common sense.
+
+    [2] Implement Security Controls
+
+        [2.1] A really important step because we will encouter problems here and there.
+
+    [3] Assess Security Controls
+
+        [3.1] Before we really put all this online, let's verify that everthing works the way that we want it to do out best diligence that we can. For example, if we require everybody to have a new password every 30 days that we understand that that's going to have some pretty big implementation issues and a lot of problems with the administration as well.
+
+        [3.2] We are assessing what the problems are going to be.
+
+        [3.3] A separate little network for us to test things to see how it all works.
+
+    [4] Authorize Information Systems
+
+        [4.1] The time when some big boss goes "Alright, Let's do this. I'm willing to accept the risk and behalf of the company or organization or whatever it might be. Let's go ahead and authorize them."
+
+        [4.2] Authorization becomes very important. Especially if something goes wrong and we need to point a finger at soembody.
+
+        [4.3] Understanding who makes the authorization can often be an important point in that framework.
+
+    [5] Monitor
+
+        [5.1] Basically repeat the above process, so the whole framework becomes a loop. 
+
+    
+
+Framework come from a variety of sources including regulatory, non-regulatory, national, and industry standards(Best practices)
+
+Evaluate security controls to verify what is feasible to implement in an enviroment
+
+Authorization is an important process when defining implementing, and measuring security controls.

@@ -1,0 +1,11 @@
+WPA/WPA2 uses 4-way handshake
+
+WPA is vulnerable to a dictionary attack 
+
+Use long, complex private share key
+
+WPA/WPA2 can be cracked at the initial connection between the WPA/WPA2 client and the access point during the 4-way handshake
+
+dictionary attacks are commonly used to crack WPA and WPA2
+
+The key to keeping WPA/WPA2 secure are long complicated privated shared keys

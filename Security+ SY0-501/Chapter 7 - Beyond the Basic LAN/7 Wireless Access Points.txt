@@ -1,0 +1,65 @@
+Thick Client
+
+    [0] have to configure
+
+Thin Client
+
+    [0] Configured by a controller, can control multiple simutalously.
+
+DBI = signal strength (Larger decibal value is better)
+
+Antena Types
+
+    [0] omni
+
+        [0] Looks like a big basketball, so it sends the signal to everywhere
+
+    [1] Dipole
+
+        [0] single level, looks like a smashed basketball, commonm in home routers
+
+    [2] Directionals
+
+        [0] Shots out a really long beam, like a light house
+
+        [1] yagi (Looks like the Antena on people's houses)
+
+        [2] pair of bollix
+
+    [3] Patch Graphic
+
+        [0] shots to one Direction
+
+Anthena placement
+
+    [0] omni for big stadium
+
+    [1] Outdoor for dipole
+    
+    [2] Patch for placing on the wall
+
+    [3] Shoot long distances in particualr between buildings, use Directionals (have to be pointed to each other)
+
+Band Selection
+
+    [0] 2.4 GHz
+
+    [1] 5 GHz
+
+Mike
+
+    [0] Always going to prefer a thin controller based client over a fat client especially if he has two or more wireless access points
+
+    [1] He's going to take a lot of time not only selecitng his anthennas but also making sure that the anthenna placement supports just my users and nobody else
+
+    [2] Going to take the time with the band selection and channel with to make sure that he has got the best possible signal he can get.
+
+
+
+Wireless access points can be a whick client or a thin client
+
+Thin clients are configured through a controller and make it eaiser to configure multiple units
+
+omni, siphole, directional and patch are all anthenna types, each type has a specific signal pattern
+
+Bandwidth, channel and channel bandwidth can affect wireless quality of service.

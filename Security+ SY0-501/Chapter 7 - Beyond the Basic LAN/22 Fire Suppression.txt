@@ -1,0 +1,31 @@
+Fire extinguisher class (A,B,C,D,K)
+
+    [0] Class A (Buring wood)
+
+    [1] B (Flamingable liquie)
+
+    [2] C (Energized eletrical equipment)
+
+    [3] D (Combustible metals)
+
+    [4] K (Kitchen, oils and fats)
+
+Do not use water to put out electrical fire
+
+Halon
+
+    [0] Not environmental friendly, but great for putting off eletrical fire
+
+Fm-200
+
+    [0] Gold standard nowadays.
+
+Seal off the server room
+
+Turn off the power
+
+If a fire extinguisher must be used in a electrical fire, you must use a class C
+
+Even though class C extinguishers are for electrical fires, they can ruin electronics due to the corrosive powder
+
+FM-200 is great because it can stop fires, but can still save the eletrical equipment.

@@ -1,0 +1,45 @@
+Network Intrusion Detection/Protection System
+
+    [0] Detection means I see something's happening and I will tell somebody about it through an email.
+
+    [1] Prevention actually detect something's happening but also to stop it one way or another
+
+NIPS
+
+    [0] Active/inline
+
+        [0] Blocks from router
+
+    [1] Detection methods
+
+        [0] Behavioral/anomaly
+
+        [1] Signature-based
+
+        [2] Rule-based
+
+        [3] Heuristic
+
+            [0] Combines anomaly and Signature
+
+Network Tap
+
+    [0] Log and check all the traffic going through it
+
+Port Mirroring
+
+    [0] Most any switch these days has the ability to be able to grab data from multiple ports
+
+Collectors
+
+    [0] Computers that pick up the informations
+
+Correlation Engines
+
+    [0] the system of doing everything
+
+NIPS types of detection methods include, Behavioral, signature-based, rule-based and Heuristic
+
+Port Mirroring and Network Taps are tools used with NIDS and NIPS
+
+NIDS is most often set up as out-of -band, NIPS is typically in-band

@@ -1,0 +1,10 @@
+Radio Frequency Interference (RFI)
+            &
+Electromagnetic Interference (EMI)
+
+    [0] Based on radiation
+
+
+Electrostatic discharge (ESD)
+
+    [0] baseed on physically touch静电

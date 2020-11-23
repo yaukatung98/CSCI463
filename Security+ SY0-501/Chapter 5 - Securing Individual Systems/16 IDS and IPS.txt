@@ -1,0 +1,29 @@
+First line of defense is a firewall
+
+    [0] Prevent naughty things from the outside world ocming into our network
+
+IDS
+
+    [0] Intrusion detection System
+
+        [0] Inside the network
+
+        [1] Watches within the network traffic
+
+        [2] Sends alerts on suspicous activity
+
+IPS
+
+    [0] Intrusion Prevention system 
+
+        [0] Active IDS
+
+        [1] IPS is usually close to the edge the network
+
+        [2] Action to prevent will occur at the IPS device
+
+Intrusion detection systems detect and report possible attacks to the administrators
+
+Intrusion prevention systems run inline with network and act to stop detected attacks
+
+A firewall filters, an IDS notifies and an IPS acts to stop.

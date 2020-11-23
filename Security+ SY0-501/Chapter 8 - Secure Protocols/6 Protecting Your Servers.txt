@@ -1,0 +1,21 @@
+SSL Accelerator
+
+    [0] Handle all the SSL/TLS encryption and decryption going across the network
+
+Load Balancer
+
+    [0] A proxy, takes all the traffic and distribute to all the other web servers.
+
+    [1] Keep track of sessions
+
+DDOS mitigator
+
+    [0] Can detect DDOS attack
+
+    [1] If it detect one, it will block them.
+
+SSL Accelerator can be done with individual cards or with an appliance to handle the encryption processing
+
+Load-balancing and proxy services can be done on a dedicated machine
+
+DDoS mitigatory tools will send out an alert to emergency response services which assist in traffic flow to the site under attack.

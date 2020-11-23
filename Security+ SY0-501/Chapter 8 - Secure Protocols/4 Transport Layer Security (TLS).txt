@@ -1,0 +1,26 @@
+Secure Sockets Layer (SSL)
+
+Transport Layer Security (TLS)
+
+SSL and TLS original for HTTPS
+
+Secure Connection
+
+    [0] Encryption
+
+    [1] Modify to a 
+
+        [0] Symmetric encryptioon
+
+    [2] Key exchange
+
+    [3] Authentication
+
+    [4] HMAC
+
+
+Originally designed for secure websites
+
+SSL/TLS is what establishes the secure link
+
+Four main aspects to a secure connection are encryptioon, key exchange, Authentication and HMAC

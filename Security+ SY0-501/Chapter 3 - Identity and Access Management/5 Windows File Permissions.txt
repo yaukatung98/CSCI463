@@ -1,0 +1,49 @@
+NTFS Permissions:
+
+    [0] Commom setup
+
+Inheritance:
+
+    [0] Anything that you put into one folder will automatically take on the NTFS permissions of that particular folder.
+
+Full Control:
+
+    [0] Anything you want
+
+Modify:
+
+    [0] Read, Write and Delete Files and Sufolders
+
+Read/Execute:
+
+    [0] See Contents and Run Programs
+
+List Folder Contents
+
+    [0] See contents of Folders and Subfolders
+
+Read:
+
+    [0] View Contents and Open Data Files
+
+Write:
+
+    [0] Write to Files and Create New Files and Folders
+
+Deny is stronger than allow
+
+Move from drive B -> B:
+
+    [0] Will maintain NTFS properties of the original Files
+
+Move from drive B -> A: 
+
+    [0] will lose NTFS properties of the original Files
+
+
+
+NTFS permissions are granted to users and groups on folders and Files
+
+Permissions inherit from folders into the files and folders beneath into
+
+Copying and moving NTFS objects have different effects on NTFS asignments

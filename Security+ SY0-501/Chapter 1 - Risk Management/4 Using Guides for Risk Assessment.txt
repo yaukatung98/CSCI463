@@ -1,0 +1,17 @@
+Different Guides for Risk Assessment
+
+[0] Benchmark: Use threshold value to verify expected throughput of action. For example, how much CPU usage should it have at any given time; what the network throughput is.
+
+[1] Secure Configuration:
+
+    [1.1] Platform and Vendor Guides: Apache, Microsoft Web Server Guides; Operating System Secure Guides.
+
+    [1.2] Network Infrastructure Devices: How to Secure WLANs
+
+[3] General Purpose Guide: Broad way description.
+
+Use Manufactures security guides to setup and review Configurations
+
+Most manufactures have forums and communities to facilitate open discussion
+
+General purpose security guides are more like a list of security controls.

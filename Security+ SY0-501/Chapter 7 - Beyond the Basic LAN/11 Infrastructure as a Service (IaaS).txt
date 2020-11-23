@@ -1,0 +1,7 @@
+Amazon Web Servies
+
+Iaas enables you to quickly configure network resources hosted by someone enables
+
+Amazon Web Services (AWS) is a great example of Iaas
+
+AWS, like most IaaS provicers, only bills you for the time you are actually running a server.

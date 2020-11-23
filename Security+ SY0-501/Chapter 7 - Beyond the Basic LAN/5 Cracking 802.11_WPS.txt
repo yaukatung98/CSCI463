@@ -1,0 +1,17 @@
+8 digit key is actually only 7 digits (one of those eight digits is a redundancy check for the other seven digits)
+
+key exchange is the first processed in 4-bit and 3-bit
+
+ WPS Attack Prevention
+
+    [0] Get rid of older touters
+
+    [1] Firmware updates
+
+    [2] Upgrade to a mordern router
+
+Wi-Fi Protected setup (wps) was developed for push button configuration
+
+The key or pin used in WPS is very weak
+
+More modern routers have tools in place to protect the WPS from attacks

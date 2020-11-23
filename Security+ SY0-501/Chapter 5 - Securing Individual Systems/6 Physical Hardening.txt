@@ -1,0 +1,15 @@
+Removable media controls:
+
+    [0] Optical Media
+
+    [1] Group Policy Object
+
+    [2] Data Execution Prevention (DEP)
+
+    [3] Disabling Port in BIOS
+
+    [4] Policies can control how system hardware acts or reacts to an action
+
+    [5] Disabling ports can be done in the BIOS
+
+    [6] Turn off legacy non-active ports to avoid vulnerable entry point

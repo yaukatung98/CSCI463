@@ -1,0 +1,76 @@
+
+[0] Acceptable Use Policy:
+
+    [0] Defines what a person can and cannot do on company assets
+
+        [0.1] Personal use of the computer: You can' t look at pornography, you can't be buying and selling things on eBay during company hours. Where you get to store stuff and where you can't store stuff.
+
+        [0.2] They tend to be very broad.
+
+
+
+[1] Data Sensitivity and Classification Policies:
+
+    [0] Defines how important different types of data are.
+
+        [0.1] Within an organization we can classify this data by applying labels to it. ('Top Secret' in Federal Government, 'highly confidential' in private sector)
+
+
+
+[2] Access Control Policies
+
+    [0] How to get access to data or resources
+
+        [0.1] How do you use passwords, or Bob's smart cards for authentication.
+
+    [1] What type of data do users have access to
+
+        [1.1] It can define based on your job title, what you can and cannot do.
+
+    [2] Big Document.
+
+
+
+[3] Password Policy
+
+    [0] Password Recovery
+
+    [1] Bad login
+
+    [2] Password Retention
+
+    [3] Password Reuse
+
+
+
+Care and Use of Equipment
+
+    [0] How you maintain the company equipment
+
+        [0.1] If you equipped a company phone, what are you responsibilities for it, what do you do if it's broken
+
+
+
+Privacy Policies
+
+    [0] Privacy policies are often for customers
+
+        [0.1] Google, we will use your data to give you customized advertisement.
+
+
+
+Personnel policies
+
+    [0] It has to deal with a person who's dealing with data, it goes under personnel policies.
+
+        [0.1] Employee Background check, Military Security Clearances
+
+        [0.2] Job Rotation, Mandatory Vacations.
+
+
+
+Access Control policy addresses data access and classification restrictions
+
+Given a scenario, be able to describe the correct policy for a situation
+
+Privacy Policies define how your data, or data usage will be shares with other resources.

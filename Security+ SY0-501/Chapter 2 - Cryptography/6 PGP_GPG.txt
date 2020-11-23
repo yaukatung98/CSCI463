@@ -1,0 +1,66 @@
+PGP: Pretty Good Privacy
+
+    [0] An encryption cryptosystem
+
+    [1] Invented by Phil Zimmerman in 1991
+
+    [2] Originally for email encryption, but nowadays, you can use PGP for all kinds of encryption
+
+    [3] PP encryptes a message with the public key, the message is decrypted with a private key
+
+
+
+Public Key Infrastructure:
+
+    [0] Boss -> Authority -> User
+
+
+
+Web of Trust:
+
+    [0] Block chain
+
+
+PGP Certificates:
+
+    [0] Symantec Corporation
+
+        [0] Encrpts mass storage
+
+        [1] Signing
+
+        [2] Disk encryption
+        
+        [3] Bitlocker
+
+        [4] Filevault
+
+        [5] Enterprise Cloud Solutions
+    
+        [6] Not free
+
+    [1] OpenPGP
+
+        [0] free
+
+        [1] Encrypted email
+
+        [2] PKI support
+
+        [3] S/MIME
+
+
+
+Protomail
+
+    [0] Encrpyed email
+
+
+
+GPG (GNU Privacy Guard)
+
+    [0] Free toolset
+
+    [1] File and disk encryption
+
+    [2] Based on Open PGP

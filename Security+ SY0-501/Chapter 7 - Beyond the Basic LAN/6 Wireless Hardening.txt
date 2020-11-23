@@ -1,0 +1,60 @@
+Hardening 802.11 Networks
+
+    [0] Survey installaiton issues
+
+        [0] Survey tools
+
+            [0] Find SSIDs
+
+            [1] Finds MAC address
+
+            [2] Bands, channels, and signals
+
+            [3] Heatmap
+
+    [1] Maintaining existing wireless Networks
+
+        [0] Good Documentation
+
+            [0] SSIDs
+
+            [1] MAC address associated to
+
+                [0] WAPS
+
+                [1] AP locaitons
+
+                [2] Heatmaps
+
+        [1] Turn off broadcast SSID
+
+        [2] Set up MAC filtering
+
+        [3] AP isolation enabled
+
+        [4] 802.1x makes a strong robust network
+
+    [2] Monitor wireless Networks
+
+        [0] Scanning Occationally
+
+        [1] Wireless Intrusion detection system (WIDS)
+
+            [0] Monitors wireless radios
+
+            [1] Watches for rouge access points
+
+            [2] Knows MAC address of authorized equipment
+
+            [3] Watches working protocols
+
+    [3] define how to defend wireless clients
+
+        [0] Train the employee to detect weird activities 
+
+
+Maintain your wireless network by using good documentation, scanning, etc..
+
+WIDS listen to what is going on inside the wireless network and heklp detect potential threats
+
+Trained clients are an essential part of good wireless security.

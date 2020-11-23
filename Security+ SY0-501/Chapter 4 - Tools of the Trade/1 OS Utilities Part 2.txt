@@ -1,0 +1,7 @@
+ipconfig provides the IP adress and ethernet details, and the -all option finds the MAC address
+
+nslookup provides informaiton on the DNS server
+
+Dig is a Linux utility that funcitons like nslookup, but Digg allows for further functionality
+
+Netcat can aopen and listen to ports, and be an aggresive tool for reconnaissance

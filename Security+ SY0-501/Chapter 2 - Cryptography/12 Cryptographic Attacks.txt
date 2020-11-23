@@ -1,0 +1,5 @@
+ Passwords are usually stored in hash format, making cracking very dificult.
+
+ More complex passwords make hacking much harder.
+
+ Salted passwords are a lot harder to crack

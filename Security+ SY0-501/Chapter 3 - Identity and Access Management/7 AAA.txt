@@ -1,0 +1,32 @@
+User names/passwords
+
+AAA (Authentication(who you are) , authorization(how much access you have) and accounting(tracks when you have accessed to the server, logs))
+
+RADIUS (Remote Authentication Dial-In User Service)
+
+    [0] RADIUS is used in wireless authenticaiton
+
+    [1] Radius is used for network access
+
+    [2] Radius can use up to 4 different ports
+
+        [0] 1812
+
+        [1] 1813
+
+        [2] 1645
+
+        [3] 1646
+
+    [3] Auditing for log files
+
+
+Terminal Access Controller Access-Control System Plus
+
+    [0] decouple the authorization from the authentication
+
+    [1] TCP port 49
+    
+    [2] Auditing for log files
+
+    

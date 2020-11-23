@@ -1,0 +1,50 @@
+IP addressing
+
+    [0] IPv4
+
+        [0] Private IP addresses
+
+            [0] NAT
+
+                [1] 10.0.0.0 - 10.255.255.255 private IPv4 address range
+
+                [2] 172.16.0.0.0 - 173.31.255.255 is a private IPv4 address range
+
+                [3] 192.168.0.0 - 192.168.255.255 is a private IPv4 address range
+
+    [1] IPv6
+
+        [0] Link local - FE80
+
+        [1] Internet address
+
+
+Transpiort Protocols
+
+    [0] TCP
+
+        [0] Three-way handshake is the cornerstone of TCP
+
+        [1] TCP - connection oriented, sends lots of packets
+
+    [1] UDP
+
+        [0] no acknowladgement
+
+        [1] UDP - connectionless, sends lots of packets
+
+    [2] ICMP
+
+        [0] ICMP - supporting protocol, handling ARP and ping
+
+        [1] Just one packet doing whatever it wants to do.
+
+
+Recognize the difference between IPv4 and IPv6
+
+IPv4 is a 32-bit address with 4 octets, and IPv6 is a 128-bit address
+
+Be familiar with the transfer protocols TCP, UDP and ICMP
+
+    
+

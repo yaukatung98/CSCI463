@@ -1,0 +1,36 @@
+OS Types:
+
+    [0] Server OS
+
+        [0] Built-in Functionality
+
+        [1] Connections
+
+    [1] Workstation
+
+        [0] Desktop Version
+
+        [1] Workhorse
+
+    [2] Embeded Systems
+
+        [0] Appliance
+
+        [1] Own OS
+
+    [3] Kiosk
+
+        [0] Limited Functionality
+
+    [4] Mobile OS
+
+        [0] Apple
+
+        [1] Android
+
+
+The main OS types are server, workstation, embedded (appliance), kiosk, Mobile
+
+Mobile OSes are custom designed for phones and cameras and have built-in GUI and security.
+
+Picking an OS based on least functionality is a good secuirty practice.

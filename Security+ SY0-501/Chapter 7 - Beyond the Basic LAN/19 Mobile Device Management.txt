@@ -1,0 +1,83 @@
+What applications can be installed
+
+What backgrounds you can have
+
+Content Management
+
+    [0] Applications Management
+
+    [1] Databases
+
+    [2] Documents
+
+Geolocation
+
+    [0] Knows the locaiton of that device
+
+Geofencing
+
+    [0] This is geolocaiton with geographic trigger
+
+Push notification services
+
+    [0] Applications will push notifications if you want
+
+Passwords and PINs
+
+    [0] Require use of passwords and PINs
+
+    [1] Can recover passwords
+
+Biometrics
+
+    [0] Fingerprints
+
+    [1] Facial recognition
+
+    [2] Vocal recognition
+
+    [3] Can lock and unlock devices
+
+    [4] Use to configure applicaitons
+
+Screen locks
+
+    [0] Make sure your screen is locked
+
+Remote Wipe
+
+    [0] Great when the device is lost
+
+Application Management
+
+    [0] Versioning
+
+    [1] Updates
+
+    [2] Patches
+
+Context - aware authentication
+
+    [0] Where are they right now
+
+    [1] What operating system are they using?
+
+    [2] What time are they trying to authenticate?
+
+Storage segmentation
+
+    [0] Dedicating a storage space for our applications
+
+Full device encryption
+
+    [0] We encrypt the entire storage of the device
+
+Containerization
+
+    [1] Docker
+
+make sure that all of your databases, documents are managed well
+
+Managing devices and applications in a corporate environment is critical
+
+All device should have some sort of enforcement and monitoring
