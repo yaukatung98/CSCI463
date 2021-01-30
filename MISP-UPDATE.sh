@@ -13,7 +13,7 @@ fi
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-echo -ne 'Updating to the latest commit from the 2.4 branch simply pull the latest commit\r'
+echo -ne '                       [0%] Updating to the latest commit from the 2.4 branch\r'
 sleep 2
 
 # To update to the latest commit from the 2.4 branch simply pull the latest commit
