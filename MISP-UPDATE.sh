@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# One Liner Update Script
+# bash <(curl -s -L https://raw.githubusercontent.com/yaukatung98/CSCI463/master/MISP-UPDATE.sh)
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 # Check if running with sudo in a bash script
@@ -88,10 +90,10 @@ sed -i "s/"4.1.2"/">=4.1.2"/gi" composer.json
 #php composer.phar self-update
 # if behind a proxy use HTTP_PROXY="http://yourproxy:port" php composer.phar self-update
 #php composer.phar update
-#*******************************************************************************
 
 # To use the scheduler worker for scheduled tasks, do the following:
-cp -fa /var/www/MISP/INSTALL/setup/config.php /var/www/MISP/app/Plugin/CakeResque/Config/config.php
+#cp -fa /var/www/MISP/INSTALL/setup/config.php /var/www/MISP/app/Plugin/CakeResque/Config/config.php
+#*******************************************************************************
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
