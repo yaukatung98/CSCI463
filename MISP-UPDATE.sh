@@ -12,9 +12,8 @@ if [ "$EUID" -ne 0 ]
 fi
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
+
 echo -ne 'Updating to the latest commit from the 2.4 branch simply pull the latest commit\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # To update to the latest commit from the 2.4 branch simply pull the latest commit
@@ -26,9 +25,7 @@ sudo -u www-data git submodule update --init --recursive
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 sleep 2
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 echo -ne '>>>                       [20%] Updating the MISP code to the latest hotfix\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # 1. Update the MISP code to the latest hotfix
@@ -43,9 +40,7 @@ git checkout tags/$(git describe --tags `git rev-list --tags --max-count=1`)
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 sleep 2
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 echo -ne '>>>>>>>                   [40%] Updating cakePHP to the latest supported version\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # 2. Update CakePHP to the latest supported version (if for some reason it doesn't get updated automatically with git submodule)
@@ -55,9 +50,7 @@ git submodule update --init --recursive
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 sleep 2
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 echo -ne '>>>>>>>>>>>>>>            [60%] Updating Mitres STIX and its dependencies\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # 3. Update Mitre's STIX and its dependencies
@@ -74,9 +67,7 @@ python3 setup.py install
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 sleep 2
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 echo -ne '>>>>>>>>>>>>>>>>>>>>>>>   [80%] Updating mixbox to accommodate the new STIX dependencies\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # 4. Update mixbox to accommodate the new STIX dependencies:
@@ -90,9 +81,7 @@ python3 setup.py install
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 sleep 2
-echo -ne'=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 echo -ne '>>>>>>>>>>>>>>>>>>>>>>>   [90%] Installing PyMISP\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # 5. install PyMISP
@@ -132,9 +121,7 @@ sed -i "s/"4.1.2"/">=4.1.2"/gi" composer.json
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 sleep 2
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 echo -ne '>>>>>>>>>>>>>>>>>>>>>>>   [95%] Making sure all file permissions are set correctly\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # 8. Make sure all file permissions are set correctly
@@ -146,16 +133,12 @@ chown -R www-data:www-data /var/www/MISP/
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 sleep 2
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 echo -ne '>>>>>>>>>>>>>>>>>>>>>>>>>>[99%] Restarting the CakeResque workers\r'
-echo -ne '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 sleep 2
 
 # 9. Restart the CakeResque workers
 
 su - www-data -s /bin/bash -c 'bash /var/www/MISP/app/Console/worker/start.sh'
-echo '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
-echo -ne '>>>>>>>>>>>>>>>>>>>>>>>>>>[100%] DONE!'
-echo '=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\r'
 
+echo -ne '>>>>>>>>>>>>>>>>>>>>>>>>>>[100%] DONE!\r'
 # EOF
