@@ -76,9 +76,9 @@ python3 setup.py install
 
 # 6. For RHEL/CentOS: enable python3 for php-fpm
 
-echo 'source scl_source enable rh-python36' >> /etc/opt/rh/rh-php71/sysconfig/php-fpm
-sed -i.org -e 's/^;\(clear_env = no\)/\1/' /etc/opt/rh/rh-php71/php-fpm.d/www.conf
-systemctl restart rh-php71-php-fpm.service
+#echo 'source scl_source enable rh-python36' >> /etc/opt/rh/rh-php71/sysconfig/php-fpm
+#sed -i.org -e 's/^;\(clear_env = no\)/\1/' /etc/opt/rh/rh-php71/php-fpm.d/www.conf
+#systemctl restart rh-php71-php-fpm.service
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -89,7 +89,7 @@ cd /var/www/MISP/app
 # Edit composer.json so that cake-resque is allowed to be updated
 # "kamisama/cake-resque": ">=4.1.2"
 
-sed -i "s/4.1.2/>=4.1.2/gi" composer.json
+sed -i "s/"4.1.2"/">=4.1.2"/gi" composer.json
 php composer.phar self-update
 # if behind a proxy use HTTP_PROXY="http://yourproxy:port" php composer.phar self-update
 php composer.phar update
