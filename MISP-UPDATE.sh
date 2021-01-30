@@ -2,6 +2,15 @@
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
+# Check if running as root in a bash script
+
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 # To update to the latest commit from the 2.4 branch simply pull the latest commit
 cd /var/www/MISP
 # Replace www-data with whoever is your webserver user (apache/httpd)
@@ -72,7 +81,7 @@ cd /var/www/MISP/app
 # Edit composer.json so that cake-resque is allowed to be updated
 # "kamisama/cake-resque": ">=4.1.2"
 
-vim composer.json
+sed -i "s/4.1.2/>=4.1.2/gi" composer.json
 php composer.phar self-update
 # if behind a proxy use HTTP_PROXY="http://yourproxy:port" php composer.phar self-update
 php composer.phar update
