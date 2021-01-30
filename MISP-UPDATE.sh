@@ -82,10 +82,13 @@ cd /var/www/MISP/app
 # "kamisama/cake-resque": ">=4.1.2"
 
 sed -i "s/"4.1.2"/">=4.1.2"/gi" composer.json
-php composer.phar self-update
-# if behind a proxy use HTTP_PROXY="http://yourproxy:port" php composer.phar self-update
-php composer.phar update
 
+#DISABLED FOR SECURITY PURPOSE, PLEASE CHECK https://getcomposer.org/root FOR MORE DETAILS
+#*******************************************************************************
+#php composer.phar self-update
+# if behind a proxy use HTTP_PROXY="http://yourproxy:port" php composer.phar self-update
+#php composer.phar update
+#*******************************************************************************
 
 # To use the scheduler worker for scheduled tasks, do the following:
 cp -fa /var/www/MISP/INSTALL/setup/config.php /var/www/MISP/app/Plugin/CakeResque/Config/config.php
