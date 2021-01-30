@@ -2,12 +2,20 @@
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-# Check if running as root in a bash script
+# Check if running with sudo in a bash script
 
-if [ "$EUID" -ne 0 ]
-  then echo "Please run as root"
-  exit
+if [[ "$EUID" = 0 ]]; then
+    echo "(1) already root"
+else
+    sudo -k # make sure to ask for password on next sudo
+    if sudo true; then
+        echo "(2) correct password"
+    else
+        echo "(3) wrong password"
+        exit 1
+    fi
 fi
+# Do your sudo stuff here. Password will not be asked again due to caching.
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
