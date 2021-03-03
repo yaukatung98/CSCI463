@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # One Liner Update Script
-# bash <(curl -s -L https://raw.githubusercontent.com/yaukatung98/CSCI463/master/ssh-harden.sh)
+# bash <(curl -s -L https://raw.githubusercontent.com/yaukatung98/CSCI463/master/MISP/ssh-harden.sh)
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 

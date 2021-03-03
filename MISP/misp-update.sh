@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # One Liner Update Script
-# bash <(curl -s -L https://raw.githubusercontent.com/yaukatung98/CSCI463/master/misp-update.sh)
+# bash <(curl -s -L https://raw.githubusercontent.com/yaukatung98/CSCI463/master/MISP/misp-update.sh)
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 # Check if running with sudo in a bash script

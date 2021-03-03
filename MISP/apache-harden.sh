@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+# One Liner Update Script
+# bash <(curl -s -L https://raw.githubusercontent.com/yaukatung98/CSCI463/master/MISP/apache-harden.sh)
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 if [ $(id -u) != '0' ]
 then
