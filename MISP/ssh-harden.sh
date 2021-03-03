@@ -14,7 +14,7 @@ function check_root() {
 }
 
 #Set initial value for SSHD_CONF_LOC
-SSHD_CONF_LOC="/etc/ssh/sshd_config"
+SSHD_CONF_LOC="/etc/ssh/ssh_config"
 
 #Check if sshd_config is in the right place (keep checking until existing
 #file is found)
