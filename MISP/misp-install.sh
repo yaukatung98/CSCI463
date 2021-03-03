@@ -16,6 +16,19 @@ wget -O /tmp/INSTALL.sh https://raw.githubusercontent.com/MISP/MISP/2.4/INSTALL/
 
 echo -ne '                       [0%] Installing MISP and all the dependencies\r'
 bash /tmp/INSTALL.sh -A
-echo -ne '                       [100%] Done\r'
 
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+# Now, we are going to add a rule to firewall this will allow port 80/tcp and 443/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+
+#=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+#Setup Ipython+PyMISP
+
+sudo pip3 install ipython
+sudo pip3 install -U pymisp
+
+echo -ne '                       [100%] Done'
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
