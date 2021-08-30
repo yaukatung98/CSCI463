@@ -17,23 +17,29 @@ CYA=$'\e[0;36m' # Light Blue Color.
 
 PUR=$'\e[0;35m' # Purple Color.
 
+BROWN=$'\e[0;33m' # Brown Color.
+
 NC=$'\e[0m' # No Color.
 
 
 # Basic Vars for Script and Logging.
 
-TIMESTAMP=$(date +"%Y%m%d") # YYYYMMDD.
+TIMESTAMP=$(date +"%Y-%m-%d") # YYYYMMDD.
+
+TIMESTAMP1=$(date +"%Y-%m") # YYYYMM.
 
 BACKUP_BareOS=/home/ynutty/bareos/ # The Location where BareOS Puts the Backup Volumes at.
 
-BACKUP_Local=/home/ynutty/bareos-archive/ # The Location where You Would Like to Store the Old Backup Volumes.
+BACKUP_Local=/home/ynutty/bareos_Archive/ # The Location where You Would Like to Store the Old Backup Volumes.
 
 RETENTION="+7" # Retention Period.
 
-BACKUP_LOG=/home/ynutty/${TIMESTAMP}_backup.log # The Location of Loggings.
+BACKUP_LOG=/home/ynutty/bareos_Logfile/${TIMESTAMP1}/${TIMESTAMP}_backup.log # The Location of Loggings.
 
 
 # Logging Header
+
+mkdir /home/ynutty/bareos_Logfile/${TIMESTAMP1}
 
 echo "${PUR} \/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ ${NC}" >> $BACKUP_LOG
 
@@ -281,6 +287,8 @@ then
 
     echo -e "${YELLOW}'$BACKUP_Local' is empty! Please Wait until House Keeping Volume Comes.${NC}" >> $BACKUP_LOG
 
+    echo "${BROWN}################################################# ${NC}" >> $BACKUP_LOG
+
     # houseKeeping change to requested directory and perform transport with or without verbosity
 
     cd $BACKUP_BareOS
@@ -325,9 +333,11 @@ else
     if [ $retentionResult -gt 0 ]
     then
         delete_volume
+        echo "${BROWN}################################################# ${NC}" >> $BACKUP_LOG
     else
         echo "${YELLOW}No House Keeping Volumes in '$BACKUP_Local' Have Passed the $RETENTION Days Retention Period. ${NC}"
         echo "${YELLOW}No House Keeping Volumes in '$BACKUP_Local' Have Passed the $RETENTION Days Retention Period. ${NC}" >> $BACKUP_LOG
+        echo "${BROWN}################################################# ${NC}" >> $BACKUP_LOG
     fi
 
     
