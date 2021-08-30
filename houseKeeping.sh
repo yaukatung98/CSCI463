@@ -26,7 +26,7 @@ TIMESTAMP=$(date +"%Y%m%d") # YYYYMMDD.
 
 BACKUP_BareOS=/home/ynutty/bareos/ # The Location where BareOS Puts the Backup Volumes at.
 
-BACKUP_Local=/home/ynutty/bareos-bak/ # The Location where You Would Like to Store the Old Backup Volumes.
+BACKUP_Local=/home/ynutty/bareos-archive/ # The Location where You Would Like to Store the Old Backup Volumes.
 
 RETENTION="+7" # Retention Period.
 
@@ -145,7 +145,7 @@ delete_volume()
 
         echo "${RED}Delete the following files (y/n)?${NC}" >> $BACKUP_LOG
 
-        find *$SEARCH_STRING -mtime $RETENTION 2>/dev/null >> $BACKUP_LOG 2>&1 # For Sending the "ll" Outputs to the Logging File.
+        find *$SEARCH_STRING -mtime $RETENTION 2>/dev/null -exec ls -l {} + >> $BACKUP_LOG 2>&1 # For Sending the "ll" Outputs to the Logging File.
 
     fi
 
@@ -326,8 +326,8 @@ else
     then
         delete_volume
     else
-        echo "${YELLOW}No House Keeping Volumes in '$BACKUP_Local' Have Passed the 7 Days Retention Period. ${NC}"
-        echo "${YELLOW}No House Keeping Volumes in '$BACKUP_Local' Have Passed the 7 Days Retention Period. ${NC}" >> $BACKUP_LOG
+        echo "${YELLOW}No House Keeping Volumes in '$BACKUP_Local' Have Passed the $RETENTION Days Retention Period. ${NC}"
+        echo "${YELLOW}No House Keeping Volumes in '$BACKUP_Local' Have Passed the $RETENTION Days Retention Period. ${NC}" >> $BACKUP_LOG
     fi
 
     
