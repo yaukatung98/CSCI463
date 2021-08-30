@@ -277,9 +277,9 @@ if [ ! -e *"$SEARCH_STRING" ]
 
 then
 
-    echo -e "${YELLOW}BareOS Backup Directory for House Keeping is empty! Please Wait until House Keeping Volume Comes.${NC}"
+    echo -e "${YELLOW}'$BACKUP_Local' is empty! Please Wait until House Keeping Volume Comes.${NC}"
 
-    echo -e "${YELLOW}BareOS Backup Directory for House Keeping is empty! Please Wait until House Keeping Volume Comes.${NC}" >> $BACKUP_LOG
+    echo -e "${YELLOW}'$BACKUP_Local' is empty! Please Wait until House Keeping Volume Comes.${NC}" >> $BACKUP_LOG
 
     # houseKeeping change to requested directory and perform transport with or without verbosity
 
@@ -342,9 +342,9 @@ else
 
     then
 
-        echo -e "${YELLOW}BareOS Backup Directory is empty! Please Wait until New Backup Volume Comes.${NC}"
+        echo -e "${YELLOW}'$BACKUP_BareOS' is empty! Please Wait until New Backup Volume Comes.${NC}"
 
-        echo -e "${YELLOW}BareOS Backup Directory is empty! Please Wait until New Backup Volume Comes.${NC}" >> $BACKUP_LOG
+        echo -e "${YELLOW}'$BACKUP_BareOS' is empty! Please Wait until New Backup Volume Comes.${NC}" >> $BACKUP_LOG
 
         echo "${GREEN} ----- ----- Code being Executed End of Line ----- ----- ${NC}" >> $BACKUP_LOG
 
